@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap">
+    <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
+    <title>Concactos</title>
+</head>
+
+<body>
+    <header>
+        <div class="searchContainer">
+            <form>
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" placeholder="Buscar..." name="buscar">
+            </form>
+        </div>
+        <div class="logoBackground"><img src="../media/bonsailogo.jpg" alt="Logo" class="logo"></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./contacto.html" class="active">Contato</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+            <li><a href="./herramientas.html">Herramientas</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="indexBackground">
+            <div class="contactContainer">
+                <div>
+                    <form action="" class="form">
+                        <label for="fname">Nombre</label>
+                        <input type="text" id="fname" name="firstname" placeholder="...">
+                        <label for="lname">Apellido</label>
+                        <input type="text" id="lname" name="lastname" placeholder="...">
+                        <label for="mail">Correo electronico</label>
+                        <input type="text" id="mail" name="firstname" placeholder="...">
+                        <label for="mtype">Tipo de mensaje</label>
+                        <select id="mtype" name="mtype">
+                            <option value="consulta">Consulta</option>
+                            <option value="solicitud">Solicitud</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                        <label for="comment">Comentario</label>
+                        <textarea id="comment" name="comment" placeholder="Deja tu comentario aqui.."
+                            style="height:200px"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="footerContainer">
+            <p class="footerLinks">
+                <a href="../index.html">Inicio</a>
+                <a class="active">Contato</a>
+                <a href="./galeria.html">Galeria</a>
+                <a href="./herramientas.html">Herramientas</a>
+            </p>
+            <p class="company">Bonsai CO &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>

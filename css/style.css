@@ -1,0 +1,409 @@
+.first-color {
+    background: #062925;
+}
+
+.second-color {
+    background: #044a42;
+}
+
+.third-color {
+    background: #3a9188;
+}
+
+.fourth-color {
+    background: #b8e1dd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Search button */
+.searchContainer button {
+    float: left;
+    padding: 2px 4px;
+    background: #ccc;
+    font-size: 14px;
+    margin: 5px;
+    border: #111;
+}
+
+/* Search input box */
+.searchContainer input[type="text"] {
+    border: 1px solid rgb(204, 188, 219);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.searchContainer button:hover {
+    background: #b8e1dd;
+    /* background-color: #062925; */
+}
+
+.searchContainer {
+    background-color: #062925;
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    border: 3px solid #062925;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    /* height: 20vh; */
+    /* width: 10vw; */
+}
+
+/* Nav bar */
+header {
+    top: 0;
+    height: auto;
+}
+
+header nav {
+    background-color: #062925;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    /* height: 18px; */
+    display: inline-block;
+    height: auto;
+    /* position: fixed; */
+}
+
+.logoBackground {
+    background-image: url("https://img.freepik.com/premium-photo/2d-hand-drawn-watercolor-seamless-background-colorful-branches-leaves-vintage-paper-background_97770-325.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    padding: 10px;
+    /* background-size: cover; */
+}
+
+.navBarExtension {
+    background: #3a9188;
+    /* height: 30px; */
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #062925;
+    display: inline-block;
+    /* display: block; */
+    text-align: center;
+    vertical-align: center;
+    /* font-size: 0  */
+}
+
+ul li {
+    float: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 40px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li a:hover {
+    background-color: #044a42;
+}
+
+.active {
+    background: #3a9188;
+}
+
+body {
+    background-color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-family: "Ubuntu";
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #062925;
+    /* bottom: 0; */
+    width: 100%;
+    margin-top: auto;
+}
+
+.footerLinks a {
+    color: #b8e1dd;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.footerContainer {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.company {
+    text-align: center;
+    color: #b8e1dd;
+}
+
+/* Home image */
+.indexBackground {
+    background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/invernaculo_botanico_apm_2014_38_1.jpg");
+    /* blur background */
+    /* filter: blur(2px); */
+    /* Dimension de la imagen */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.indexBackgroundText {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    /* position: absolute; */
+    /* top: 10%;
+    left: 50%; */
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: auto;
+}
+
+.indexTitle {
+    font-size: 10vw;
+    font-family: "Cinzel Decorative";
+}
+
+.indexSubTitle {
+    font-size: 4vw;
+    font-family: "Cinzel Decorative";
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* Contactos */
+.principal {
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.contactContainer {
+    text-align: center;
+    margin: auto;
+    width: 35%;
+}
+
+label {
+    color: white;
+}
+
+.contactContainer input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b8e1dd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #3a9188;
+    color: white;
+    /* color: #b8e1dd; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #044a42;
+}
+
+.form {
+    border: 3px solid #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.galeryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: #b8e1dd;
+}
+
+div.gallery:hover {
+    /* border: 2px solid #777; */
+    border: 2px solid #b8e1dd;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    background-color: #111;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* tools */
+.toolContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.tool {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.tool:hover {
+    border: 2px solid #b8e1dd;
+}
+
+div.tool img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.too1Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+}
+
+div.tool1Desc {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.tool1Left {
+    width: 30%;
+}
+
+.tool1Right {
+    width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+}
+
+th {
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #3a9188;
+}
+
+.tool1Left input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b8e1dd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    .indexTitle {
+        font-size: 6vw;
+    }
+
+    .indexSubTitle {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    ul li {
+        float: left;
+    }
+
+    .indexTitle {
+        font-size: 5vw;
+    }
+
+    .indexSubTitle {
+        font-size: 2vw;
+    }
+
+}
