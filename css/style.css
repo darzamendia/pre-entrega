@@ -140,6 +140,10 @@ footer {
     margin-top: auto;
 }
 
+.footerlinks {
+    padding: 10px;
+}
+
 .footerLinks a {
     color: #b8e1dd;
     text-decoration: none;
