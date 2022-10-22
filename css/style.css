@@ -339,25 +339,25 @@ div.tool1Desc {
     width: 70%;
 }
 
-table {
+/* table {
     border-collapse: collapse;
     width: 100%;
-}
+} */
 
-th,
+/* th,
 td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
     background-color: white;
-}
+} */
 
-th {
-    color: white;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #3a9188;
-}
+/* th { */
+/* color: white; */
+/* padding-top: 12px; */
+/* padding-bottom: 12px; */
+/* background-color: #3a9188; */
+/* } */
 
 .tool1Left input[type="text"],
 select,
