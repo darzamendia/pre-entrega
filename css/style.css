@@ -72,7 +72,7 @@ header nav {
     background-color: #062925;
     width: 100%;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     /* height: 18px; */
     display: inline-block;
     height: auto;
@@ -118,12 +118,6 @@ li a {
 
 li a:hover {
     background-color: #044a42;
-}
-
-.active {
-    border: 2px solid #3a9188;
-    padding: 10px;
-    border-radius: 25px;
 }
 
 body {
@@ -253,11 +247,17 @@ input[type="submit"]:hover {
     background-color: #044a42;
 }
 
+/* .navbar-collapse {
+    flex-grow: initial;
+} */
+
 .navbar {
     justify-content: center;
     background-color: #062925;
-    font-size: 2vw;
-    /* font-family: "Cinzel Decorative"; */
+    /* font-size: 2vw; */
+    /* padding: 0px; */
+    /* margin: 0px; */
+    font-family: "Cinzel Decorative";
 }
 
 .collapse:not(.show) {
@@ -269,6 +269,11 @@ input[type="submit"]:hover {
     margin: 0px 10px;
     padding: 0px 30px;
     font-size: 1rem;
+}
+
+.navbar-brand {
+    display: inherit;
+    border: 2px solid #117a8b00;
 }
 
 a:not([href]):hover {
@@ -381,6 +386,15 @@ div.tool1Desc {
     margin: 1% 5%;
 }
 
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    border-radius: 25px;
+}
+
 /* table {
     border-collapse: collapse;
     width: 100%;
@@ -400,6 +414,16 @@ td {
 /* padding-bottom: 12px; */
 /* background-color: #3a9188; */
 /* } */
+.active {
+    border: 2px solid #3a9188;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.sticky-top {
+    /* Se deshabilita el sticky por default de bootstrap para las versiones mobile/ipad */
+    position: relative;
+}
 
 .tool1Left input[type="text"],
 select,
@@ -432,6 +456,11 @@ textarea {
     .indexSubTitle {
         font-size: 3vw;
     }
+
+    .sticky-top {
+        position: sticky;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
