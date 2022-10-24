@@ -14,6 +14,8 @@
     <!-- CDN de la librería de Popper  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ubuntu:wght@300;400&display=swap" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
@@ -31,39 +33,77 @@
         <div class="logoBackground"><img src="../media/bonsailogo.jpg" alt="Logo" class="logo"></div>
     </header>
     <div class="sticky-top">
-        <nav class="navbar sticky-top navbar-light navbar-collapse navbar-expand-lg">
-            <!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light"> -->
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <a class="navbar-brand active">Contato</a>
-            <a class="navbar-brand" href="./galeria.html">Galeria</a>
-            <a class="navbar-brand" href="./herramientas.html">Herramientas</a>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li><a class="navbar-brand" href="../index.html">Inicio</a></li>
+                    <li><a class="navbar-brand active">Contato</a></li>
+                    <li><a class="navbar-brand" href="./galeria.html">Galeria</a></li>
+                    <li><a class="navbar-brand" href="./herramientas.html">Herramientas</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
-    <section>
-        <div class="indexBackground">
-            <div class="contactContainer">
-                <div>
-                    <form action="" class="form">
-                        <label for="fname">Nombre</label>
-                        <input type="text" id="fname" name="firstname" placeholder="...">
-                        <label for="lname">Apellido</label>
-                        <input type="text" id="lname" name="lastname" placeholder="...">
-                        <label for="mail">Correo electronico</label>
-                        <input type="text" id="mail" name="firstname" placeholder="...">
-                        <label for="mtype">Tipo de mensaje</label>
-                        <select id="mtype" name="mtype">
-                            <option value="consulta">Consulta</option>
-                            <option value="solicitud">Solicitud</option>
-                            <option value="otros">Otros</option>
-                        </select>
-                        <label for="comment">Comentario</label>
-                        <textarea id="comment" name="comment" placeholder="Deja tu comentario aqui.."
-                            style="height:200px"></textarea>
-                        <input type="submit" value="Enviar">
-                    </form>
-                </div>
+
+    <div class="indexBackground">
+        <div class="container">
+            <div class="form mainTitle">
+                <h1>Contactanos!</h1>
+                <h6>Completa el siguiente formulario con tu duda/sugerencia.</h3>
             </div>
-    </section>
+            <form class="form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese aqui...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputApellido">Apellido</label>
+                        <input type="text" class="form-control" id="inputApellido" placeholder="Ingrese aqui...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputCorreo">Correo electronico</label>
+                    <input type="text" class="form-control" id="inputCorreo" placeholder="correo@gmail.com">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputNombre">Telefono</label>
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese aqui...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputTipoTelefono">Tipo</label>
+                        <select id="inputTipoTelefono" class="form-control">
+                            <option selected>Seleccione...</option>
+                            <option>Celular</option>
+                            <option>Casa</option>
+                            <option>Otros</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-group">
+                        <label for="inputTipoMensaje">Tipo de mensaje</label>
+                        <select id="inputTipoMensaje" class="form-control">
+                            <option selected>Seleccione...</option>
+                            <option>Solicitud</option>
+                            <option>Consulta</option>
+                            <option>Otros</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Suscribirse
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+        </div>
+    </div>
     <footer>
         <div class="footerContainer">
             <p class="footerLinks">
