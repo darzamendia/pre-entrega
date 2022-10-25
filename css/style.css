@@ -1,25 +1,8 @@
-.first-color {
-    background: #062925;
-}
-
-.second-color {
-    background: #044a42;
-}
-
-.third-color {
-    background: #3a9188;
-}
-
-.fourth-color {
-    background: #b8e1dd;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Search button */
 .searchContainer button {
     float: left;
     padding: 2px 4px;
@@ -29,7 +12,6 @@
     border: #111;
 }
 
-/* Search input box */
 .searchContainer input[type="text"] {
     border: 1px solid rgb(204, 188, 219);
     font-size: 16px;
@@ -41,28 +23,23 @@
 
 .searchContainer button:hover {
     background: #b8e1dd;
-    /* background-color: #062925; */
 }
 
 .searchContainer {
     background-color: #062925;
 }
 
-/* Logo */
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 8%; */
-    border: 3px solid #062925;
+    border: 4px solid #062925;
+    background-color: #e9ecef;
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    /* height: 20vh; */
-    /* width: 10vw; */
 }
 
-/* Nav bar */
 header {
     top: 0;
     height: auto;
@@ -72,11 +49,8 @@ header nav {
     background-color: #062925;
     width: 100%;
     text-align: center;
-    /* position: sticky; */
-    /* height: 18px; */
     display: inline-block;
     height: auto;
-    /* position: fixed; */
 }
 
 .logoBackground {
@@ -88,7 +62,6 @@ header nav {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-    /* color: rgba(0, 0, 0, .9); */
     color: #3a9188;
 }
 
@@ -97,10 +70,8 @@ ul {
     overflow: hidden;
     background-color: #062925;
     display: inline-block;
-    /* display: block; */
     text-align: center;
     vertical-align: center;
-    /* font-size: 0  */
 }
 
 ul li {
@@ -122,8 +93,6 @@ li a:hover {
 
 body {
     background-color: white;
-    /* display: flex; */
-    /* flex-direction: column; */
     font-family: "Ubuntu";
     min-height: 100vh;
 }
@@ -155,12 +124,8 @@ footer {
     color: #b8e1dd;
 }
 
-/* Home image */
 .indexBackground {
     background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/invernaculo_botanico_apm_2014_38_1.jpg");
-    /* blur background */
-    /* filter: blur(2px); */
-    /* Dimension de la imagen */
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,13 +137,10 @@ footer {
 
 .indexBackgroundText {
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    /* top: 10%;
-    left: 50%; */
     width: 80%;
     padding: 20px;
     margin: 10px;
@@ -198,7 +160,6 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Contactos */
 .principal {
     padding-top: 20px;
     margin-top: 30px;
@@ -207,13 +168,16 @@ footer {
 .container {
     border-radius: 5px;
     padding: 20px;
-    /* text-align: center; */
 }
 
 .contactContainer {
     text-align: center;
     margin: auto;
     width: 35%;
+}
+
+.containerCenter {
+    justify-content: center;
 }
 
 label {
@@ -242,9 +206,6 @@ input[type="submit"]:hover {
 .navbar {
     justify-content: center;
     background-color: #062925;
-    /* font-size: 2vw; */
-    /* padding: 0px; */
-    /* margin: 0px; */
     font-family: "Cinzel Decorative";
 }
 
@@ -279,7 +240,6 @@ a:not([href]):hover {
 
 .form {
     border: 3px solid #f1f1f1;
-    /* background-color: #062925; */
     background-color: rgba(6, 41, 37, 0.9);
     padding: 10px;
     border-radius: 10px;
@@ -308,7 +268,6 @@ div.gallery {
 }
 
 div.gallery:hover {
-    /* border: 2px solid #777; */
     border: 2px solid #b8e1dd;
 }
 
@@ -375,11 +334,6 @@ div.tool1Desc {
     width: 70%;
 }
 
-/* .btn-02s {
-    background-color: red;
-    text-align: center;
-} */
-
 .container-s02 {
     margin: 1% 5%;
 }
@@ -399,25 +353,6 @@ div.tool1Desc {
     /* font-family: "Cinzel Decorative"; */
 }
 
-/* table {
-    border-collapse: collapse;
-    width: 100%;
-} */
-
-/* th,
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-    background-color: white;
-} */
-
-/* th { */
-/* color: white; */
-/* padding-top: 12px; */
-/* padding-bottom: 12px; */
-/* background-color: #3a9188; */
-/* } */
 .active {
     border: 2px solid #3a9188;
     padding: 10px;
@@ -428,19 +363,6 @@ td {
     /* Se deshabilita el sticky por default de bootstrap para las versiones mobile/ipad */
     position: relative;
 }
-
-/* .tool1Left input[type="text"],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #b8e1dd;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-} */
 
 @media screen and (min-width: 768px) {
     .logo {
@@ -573,25 +495,9 @@ textarea {
     }
 }
 
-/* inicio */
-
-
-/* html {
-    height: 100%;
-} */
-
-/* body {
-    background: #c8c0d5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    color: rgba(172, 106, 172, 1);
-    font-family: 'Righteous', cursive;
-    font-size: 2rem;
-} */
-
-/* fin */
+.card {
+    background-color: #e9ecef;
+}
 
 .bounceIn {
     -webkit-animation-name: bounceIn;
