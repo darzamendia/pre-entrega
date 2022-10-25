@@ -14,6 +14,8 @@
     <!-- CDN de la librería de Popper  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ubuntu:wght@300;400&display=swap" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../media/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../media/favicon-16x16.png">
@@ -30,22 +32,25 @@
         </div>
         <div class="logoBackground"><img src="../media/bonsailogo.jpg" alt="Logo" class="logo"></div>
     </header>
-    <!-- navbar -->
     <div class="sticky-top">
-        <nav class="navbar sticky-top navbar-light navbar-collapse navbar-expand-lg">
-            <!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light"> -->
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <a class="navbar-brand" href="./contacto.html">Contato</a>
-            <a class="navbar-brand" href="./galeria.html">Galeria</a>
-            <a class="navbar-brand active">Herramientas</a>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li><a class="navbar-brand" href="../index.html">Inicio</a></li>
+                    <li><a class="navbar-brand" href="./contacto.html">Contato</a></li>
+                    <li><a class="navbar-brand" href="./galeria.html">Galeria</a></li>
+                    <li><a class="navbar-brand active">Herramientas</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
-    <!-- Cards de herramientas -->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
                 <div class="card">
-                    <img src="../media/espacio.svg" class="card-img-top fadeIn bounceIn" alt="espacio">
+                    <a href="../sections/herramienta1.html">
+                        <img src="../media/espacio.svg" class="card-img-top fadeIn bounceIn" alt="espacio">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title">Espacio de cultivo</h5>
                         <p class="card-text">Ingresa las medidas de tu espacio y enterate de los parametros optimos para
@@ -55,7 +60,9 @@
             </div>
             <div class="col mb-4">
                 <div class="card">
-                    <img src="../media/riego.svg" class="card-img-top fadeIn bounceIn" alt="riego">
+                    <a href="#">
+                        <img src=" ../media/riego.svg" class="card-img-top fadeIn bounceIn" alt="riego">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title">Riego</h5>
                         <p class="card-text">El agua es un recurso muy importante, no malgastes y calcula la forma mas
