@@ -99,7 +99,6 @@ body {
 
 footer {
     background-color: #062925;
-    /* bottom: 0; */
     width: 100%;
     margin-top: auto;
 }
@@ -125,18 +124,17 @@ footer {
 }
 
 .indexBackground {
-    background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/invernaculo_botanico_apm_2014_38_1.jpg");
+    background-image: url("../media/seamless.jpg");
     height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .indexBackgroundText {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -284,7 +282,6 @@ div.desc {
     font-size: 12px;
 }
 
-/* tools */
 .toolContainer {
     display: flex;
     flex-wrap: wrap;
@@ -350,7 +347,6 @@ div.tool1Desc {
 .mainTitle {
     color: white;
     margin-bottom: 1rem;
-    /* font-family: "Cinzel Decorative"; */
 }
 
 .active {
@@ -385,7 +381,6 @@ div.tool1Desc {
     .sticky-top {
         position: sticky;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -405,7 +400,6 @@ div.tool1Desc {
     .indexSubTitle {
         font-size: 2vw;
     }
-
 }
 
 .fadeIn {
@@ -423,7 +417,6 @@ div.tool1Desc {
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
     max-width: 33.3%;
@@ -514,13 +507,8 @@ div.tool1Desc {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 8%; */
-    /* border: 3px solid #062925; */
-    /* border-radius: 50%; */
     width: 15rem;
     height: 15rem;
-    /* height: 20vh; */
-    /* width: 10vw; */
 }
 
 .jumbotron {
