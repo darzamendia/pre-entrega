@@ -414,7 +414,7 @@ div.tool1Desc {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 4px 4px;
 }
 
 .column {
