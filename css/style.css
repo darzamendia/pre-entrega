@@ -23,16 +23,22 @@ footer {
   color: #0e7a70; }
 
 .form {
-  border: 3px solid #f1f1f1;
+  border: 3px solid #e9ecef;
   background-color: rgba(6, 41, 37, 0.9);
   padding: 10px;
   border-radius: 10px; }
+
+.input-search {
+  height: 1.5rem; }
 
 .form-control:focus {
   color: #495057;
   background-color: #e9ecef;
   outline: 0;
   box-shadow: 0 0 0 0.2rem #0e7a70; }
+
+.form-inline {
+  flex-flow: row-reverse; }
 
 header {
   top: 0;
@@ -69,13 +75,6 @@ header {
   border-radius: 50%;
   width: 90px;
   height: 90px; }
-
-header nav {
-  background-color: #081c15;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-  height: auto; }
 
 .logoBackground {
   background-color: #e9ecef;
@@ -147,10 +146,26 @@ input[type="submit"]:hover {
   background-color: #0e7a70;
   border-color: #0e7a70; }
 
+.btn-search {
+  background-color: transparent;
+  padding: 0.1rem;
+  border-radius: 25%;
+  border-color: #081c15; }
+
+.btn-search:hover {
+  background-color: #044a42;
+  color: #b8e1dd;
+  color: #e9ecef; }
+
+.material-icons {
+  vertical-align: middle; }
+
 .navbar {
-  justify-content: center;
   background-color: #081c15;
   font-family: "Cinzel Decorative"; }
+
+.navbar-buttons {
+  justify-content: center; }
 
 .collapse:not(.show) {
   display: block; }

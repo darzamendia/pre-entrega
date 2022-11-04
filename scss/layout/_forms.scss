@@ -1,14 +1,22 @@
 .form {
-    border: 3px solid #f1f1f1;
+    // border: 3px solid #f1f1f1;
+    border: 3px solid $color-one;
     background-color: $form-background;
     padding: 10px;
     border-radius: 10px;
 }
 
+.input-search {
+    height: 1.5rem;
+}
+
 .form-control:focus {
     color: #495057;
-    // background-color: #fff;
     background-color: $color-one;
     outline: 0;
     box-shadow: 0 0 0 0.2rem $color-three;
+}
+
+.form-inline {
+    flex-flow: row-reverse;
 }

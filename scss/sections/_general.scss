@@ -35,14 +35,6 @@
     height: 90px;
 }
 
-header nav {
-    background-color: $color-five;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    height: auto;
-}
-
 .logoBackground {
     // background-image: url("https://img.freepik.com/premium-photo/2d-hand-drawn-watercolor-seamless-background-colorful-branches-leaves-vintage-paper-background_97770-325.jpg");
     // background-image: url("../media/seamless2.jpg");
@@ -132,10 +124,30 @@ input[type="submit"]:hover {
     border-color: $color-three;
 }
 
+.btn-search {
+    background-color: transparent;
+    padding: 0.1rem;
+    border-radius: 25%;
+    border-color: $color-five;
+}
+
+.btn-search:hover {
+    background-color: $color-four;
+    color: #b8e1dd;
+    color: $color-one;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
 .navbar {
-    justify-content: center;
     background-color: $color-five;
     font-family: "Cinzel Decorative";
+}
+
+.navbar-buttons {
+    justify-content: center;
 }
 
 .collapse:not(.show) {
@@ -143,7 +155,6 @@ input[type="submit"]:hover {
 }
 
 .navbar-light .navbar-brand {
-    // color: white;
     color: $color-one;
     margin: 0px 10px;
     padding: 0px 30px;
@@ -253,11 +264,6 @@ div.tool1Desc {
     border-radius: 25px;
     color: $color-two;
 }
-
-// .mainTitle {
-//     color: white;
-//     margin-bottom: 1rem;
-// }
 
 .active {
     border: 2px solid $color-three;
