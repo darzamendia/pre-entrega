@@ -48,10 +48,11 @@
     <div class="jumbotron jumbotron-fluid">
         <img src="../media/espacio.svg" class="toolIcon fadeIn bounceIn" alt="espacio">
         <div class="container">
-            <h1 class="display-4">El espacio es importante</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quas corrupti est
-                nostrum sit aliquam amet, iusto maxime possimus dolorem dolore repellat obcaecati deleniti odio aut,
-                minus asperiores. Totam, aut?</p>
+            <h1 class="display-4">¿Qué es el VPD y para qué sirve?</h1>
+            <p class="lead">El VPD es una forma poco conocida por muchos cultivadores que permite relacionar la humedad
+                relativa y la temperatura de
+                un cuarto de cultivo para ajustarlas a las necesidades de las plantas. Conseguir el VPD correcto asegura
+                que el clima sea óptimo para el desarrollo de tu cultivo.</p>
         </div>
     </div>
     <section class="clean-bg">
@@ -61,25 +62,26 @@
                     <form class="form">
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAlto">Alto</label>
+                                <label for="inputAlto">Alto (cm)</label>
                                 <input type="text" class="form-control" id="inputAlto" placeholder="Ingrese aqui...">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputAncho">Ancho</label>
+                                <label for="inputAncho">Ancho (cm)</label>
                                 <input type="text" class="form-control" id="inputAncho" placeholder="Ingrese aqui...">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputAncho">Ancho</label>
+                                <label for="inputAncho">Ancho (cm)</label>
                                 <input type="text" class="form-control" id="inputAncho" placeholder="Ingrese aqui...">
                             </div>
                         </div>
                         <div>
                             <div class="form-group">
-                                <label for="inputTipoEspacio">Tipo de espacio</label>
-                                <select id="inputTipoEspacio" class="form-control">
+                                <label for="inputTipoVentilacion">Tipo de ventilacion</label>
+                                <select id="inputTipoVentilacion" class="form-control">
                                     <option selected>Seleccione...</option>
-                                    <option>Interior</option>
-                                    <option>Exterior</option>
+                                    <option>Sin ventilacion</option>
+                                    <option>Ventiladores</option>
+                                    <option>Aire acondicionado</option>
                                     <option>Otros</option>
                                 </select>
                             </div>
@@ -92,29 +94,29 @@
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Tipo de parametro</th>
+                                <th scope="col">Humedad</th>
+                                <th scope="col">Temperatura</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>Minimo</td>
+                                <td>35%</td>
+                                <td>15°C</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>Optimo</td>
+                                <td>55%</td>
+                                <td>22°C</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>Maximo</td>
+                                <td>80%</td>
+                                <td>30°C</td>
                             </tr>
                         </tbody>
                     </table>

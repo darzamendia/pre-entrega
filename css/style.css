@@ -39,41 +39,6 @@ header {
   top: 0;
   height: auto; }
 
-.indexBackground {
-  height: 100vh;
-  background-position: center;
-  background-repeat: repeat;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.indexBackgroundText {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  width: 80%;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  animation: myAnim 1s ease 0s 1 normal forwards; }
-
-.indexTitle {
-  font-size: 10vw;
-  font-family: "Cinzel Decorative"; }
-
-.indexSubTitle {
-  font-size: 4vw;
-  font-family: "Cinzel Decorative";
-  font-weight: normal;
-  margin-bottom: 10px; }
-
-.jumbotron {
-  padding: 0;
-  margin-bottom: 0;
-  border-radius: 0.3rem; }
-
 .searchContainer button {
   float: left;
   padding: 2px 4px;
@@ -280,19 +245,12 @@ div.tool1Desc {
 .tool1Right {
   width: 70%; }
 
-.container-s02 {
-  margin: 1% 5%; }
-
 .navbar-collapse {
   flex-grow: initial; }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
   border-radius: 25px; }
-
-.mainTitle {
-  color: white;
-  margin-bottom: 1rem; }
 
 .active {
   border: 2px solid #3a9188;
@@ -302,6 +260,42 @@ div.tool1Desc {
 .sticky-top {
   /* Se deshabilita el sticky por default de bootstrap para las versiones mobile/ipad */
   position: relative; }
+
+.indexBackground {
+  background-image: url("../media/seamless2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.indexBackgroundText {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  width: 80%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  animation: myAnim 1s ease 0s 1 normal forwards; }
+
+.indexTitle {
+  font-size: 10vw;
+  font-family: "Cinzel Decorative"; }
+
+.indexSubTitle {
+  font-size: 4vw;
+  font-family: "Cinzel Decorative";
+  font-weight: normal;
+  margin-bottom: 10px; }
+
+.jumbotron {
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 0.3rem; }
 
 @media screen and (min-width: 768px) {
   .logo {
