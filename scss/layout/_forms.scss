@@ -1,13 +1,12 @@
 .form {
-    // border: 3px solid #f1f1f1;
     border: 3px solid $color-one;
     background-color: $form-background;
     padding: 10px;
     border-radius: 10px;
 }
 
-.input-search {
-    height: 1.5rem;
+.form-control {
+    margin-right: 1rem;
 }
 
 .form-control:focus {
