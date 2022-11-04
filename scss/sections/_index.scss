@@ -9,10 +9,10 @@
 }
 
 .indexBackgroundText {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: $color-index-bg-text;
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid $color-one;
     position: absolute;
     width: 80%;
     padding: 20px;

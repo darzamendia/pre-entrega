@@ -3,7 +3,7 @@
   padding: 0; }
 
 footer {
-  background-color: #062925;
+  background-color: #081c15;
   width: 100%;
   margin-top: auto; }
 
@@ -20,7 +20,7 @@ footer {
   font-size: 12px; }
 
 .footerLinks a:hover {
-  color: #3a9188; }
+  color: #0e7a70; }
 
 .form {
   border: 3px solid #f1f1f1;
@@ -30,10 +30,9 @@ footer {
 
 .form-control:focus {
   color: #495057;
-  background-color: #fff;
-  /* border-color: $color-three; */
+  background-color: #e9ecef;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem #3a9188; }
+  box-shadow: 0 0 0 0.2rem #0e7a70; }
 
 header {
   top: 0;
@@ -59,39 +58,33 @@ header {
   background: #b8e1dd; }
 
 .searchContainer {
-  background-color: #062925; }
+  background-color: #081c15; }
 
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 4px solid #062925;
+  border: 4px solid #081c15;
   background-color: #e9ecef;
   border-radius: 50%;
   width: 90px;
   height: 90px; }
 
 header nav {
-  background-color: #062925;
+  background-color: #081c15;
   width: 100%;
   text-align: center;
   display: inline-block;
   height: auto; }
 
 .logoBackground {
-  background-image: url("https://img.freepik.com/premium-photo/2d-hand-drawn-watercolor-seamless-background-colorful-branches-leaves-vintage-paper-background_97770-325.jpg");
-  background-position: center;
-  background-repeat: repeat;
+  background-color: #e9ecef;
   padding: 10px; }
-
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:hover {
-  color: #3a9188; }
 
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #062925;
+  background-color: #081c15;
   display: inline-block;
   text-align: center;
   vertical-align: center; }
@@ -139,7 +132,7 @@ label {
   color: white; }
 
 input[type="submit"] {
-  background-color: #3a9188;
+  background-color: #0e7a70;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -151,33 +144,33 @@ input[type="submit"]:hover {
 
 .btn-dark {
   color: #fff;
-  background-color: #3a9188;
-  border-color: #3a9188; }
+  background-color: #0e7a70;
+  border-color: #0e7a70; }
 
 .navbar {
   justify-content: center;
-  background-color: #062925;
+  background-color: #081c15;
   font-family: "Cinzel Decorative"; }
 
 .collapse:not(.show) {
   display: block; }
 
 .navbar-light .navbar-brand {
-  color: white;
+  color: #e9ecef;
   margin: 0px 10px;
   padding: 0px 30px;
   font-size: 1rem; }
 
 .navbar-brand {
   display: inherit;
-  border: 2px solid #117a8b00; }
+  border: 2px solid rgba(255, 255, 255, 0); }
 
 a:not([href]):hover {
-  color: #3a9188;
+  color: #0e7a70;
   text-decoration: none; }
 
 .card:hover {
-  border: 2px solid #3a9188; }
+  border: 2px solid #0e7a70; }
 
 .galeryContainer {
   display: flex;
@@ -186,7 +179,7 @@ a:not([href]):hover {
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #e9ecef;
   float: left;
   width: 180px;
   background-color: #b8e1dd; }
@@ -212,7 +205,7 @@ div.desc {
 
 div.tool {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #e9ecef;
   float: left;
   width: 180px; }
 
@@ -250,10 +243,11 @@ div.tool1Desc {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  border-radius: 25px; }
+  border-radius: 25px;
+  color: #b8e1dd; }
 
 .active {
-  border: 2px solid #3a9188;
+  border: 2px solid #0e7a70;
   padding: 10px;
   border-radius: 25px; }
 
@@ -271,10 +265,10 @@ div.tool1Desc {
   justify-content: center; }
 
 .indexBackgroundText {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #e9ecef;
   position: absolute;
   width: 80%;
   padding: 20px;
