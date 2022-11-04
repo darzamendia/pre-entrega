@@ -3,3 +3,22 @@ footer {
     width: 100%;
     margin-top: auto;
 }
+
+.footerlinks {
+    padding: 10px;
+}
+
+.footerLinks a {
+    color: $color-two;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.footerContainer {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.footerLinks a:hover {
+    color: $color-three;
+}

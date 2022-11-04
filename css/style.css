@@ -7,6 +7,56 @@ footer {
   width: 100%;
   margin-top: auto; }
 
+.footerlinks {
+  padding: 10px; }
+
+.footerLinks a {
+  color: #b8e1dd;
+  text-decoration: none;
+  padding: 5px 10px; }
+
+.footerContainer {
+  padding: 10px 20px;
+  font-size: 12px; }
+
+.footerLinks a:hover {
+  color: #3a9188; }
+
+header {
+  top: 0;
+  height: auto; }
+
+.indexBackground {
+  background-image: url("../media/seamless.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.indexBackgroundText {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  width: 80%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  animation: myAnim 1s ease 0s 1 normal forwards; }
+
+.indexTitle {
+  font-size: 10vw;
+  font-family: "Cinzel Decorative"; }
+
+.indexSubTitle {
+  font-size: 4vw;
+  font-family: "Cinzel Decorative";
+  font-weight: normal;
+  margin-bottom: 10px; }
+
 .searchContainer button {
   float: left;
   padding: 2px 4px;
@@ -38,10 +88,6 @@ footer {
   border-radius: 50%;
   width: 90px;
   height: 90px; }
-
-header {
-  top: 0;
-  height: auto; }
 
 header nav {
   background-color: #062925;
@@ -87,52 +133,9 @@ body {
   font-family: "Ubuntu";
   min-height: 100vh; }
 
-.footerlinks {
-  padding: 10px; }
-
-.footerLinks a {
-  color: #b8e1dd;
-  text-decoration: none;
-  padding: 5px 10px; }
-
-.footerContainer {
-  padding: 10px 20px;
-  font-size: 12px; }
-
 .company {
   text-align: center;
   color: #b8e1dd; }
-
-.indexBackground {
-  background-image: url("../media/seamless.jpg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: repeat;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.indexBackgroundText {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  width: 80%;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  animation: myAnim 1s ease 0s 1 normal forwards; }
-
-.indexTitle {
-  font-size: 10vw;
-  font-family: "Cinzel Decorative"; }
-
-.indexSubTitle {
-  font-size: 4vw;
-  font-family: "Cinzel Decorative";
-  font-weight: normal;
-  margin-bottom: 10px; }
 
 .principal {
   padding-top: 20px;

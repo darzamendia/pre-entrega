@@ -7,6 +7,8 @@
 @import "layout/header";
 @import "layout/nav";
 
+@import "sections/index";
+
 @import "components/buttons";
 @import "components/jumbo";
 
@@ -45,11 +47,6 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
-}
-
-header {
-    top: 0;
-    height: auto;
 }
 
 header nav {
@@ -104,59 +101,9 @@ body {
     min-height: 100vh;
 }
 
-.footerlinks {
-    padding: 10px;
-}
-
-.footerLinks a {
-    color: $color-two;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.footerContainer {
-    padding: 10px 20px;
-    font-size: 12px;
-}
-
 .company {
     text-align: center;
     color: $color-two;
-}
-
-.indexBackground {
-    background-image: url("../media/seamless.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.indexBackgroundText {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    width: 80%;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    animation: myAnim 1s ease 0s 1 normal forwards;
-}
-
-.indexTitle {
-    font-size: 10vw;
-    font-family: "Cinzel Decorative";
-}
-
-.indexSubTitle {
-    font-size: 4vw;
-    font-family: "Cinzel Decorative";
-    font-weight: normal;
-    margin-bottom: 10px;
 }
 
 .principal {
@@ -227,10 +174,6 @@ input[type="submit"]:hover {
 a:not([href]):hover {
     color: $color-three;
     text-decoration: none;
-}
-
-.footerLinks a:hover {
-    color: $color-three;
 }
 
 .card:hover {
