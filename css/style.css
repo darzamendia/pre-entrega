@@ -22,12 +22,24 @@ footer {
 .footerLinks a:hover {
   color: #3a9188; }
 
+.form {
+  border: 3px solid #f1f1f1;
+  background-color: rgba(6, 41, 37, 0.9);
+  padding: 10px;
+  border-radius: 10px; }
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  /* border-color: $color-three; */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #3a9188; }
+
 header {
   top: 0;
   height: auto; }
 
 .indexBackground {
-  background-image: url("../media/seamless.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: repeat;
@@ -56,6 +68,11 @@ header {
   font-family: "Cinzel Decorative";
   font-weight: normal;
   margin-bottom: 10px; }
+
+.jumbotron {
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 0.3rem; }
 
 .searchContainer button {
   float: left;
@@ -194,24 +211,8 @@ a:not([href]):hover {
   color: #3a9188;
   text-decoration: none; }
 
-.footerLinks a:hover {
-  color: #3a9188; }
-
 .card:hover {
   border: 2px solid #3a9188; }
-
-.form {
-  border: 3px solid #f1f1f1;
-  background-color: rgba(6, 41, 37, 0.9);
-  padding: 10px;
-  border-radius: 10px; }
-
-.form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  /* border-color: $color-three; */
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem #3a9188; }
 
 .galeryContainer {
   display: flex;
@@ -408,11 +409,6 @@ div.tool1Desc {
   margin-right: auto;
   width: 15rem;
   height: 15rem; }
-
-.jumbotron {
-  padding: 0;
-  margin-bottom: 0;
-  border-radius: 0.3rem; }
 
 .clean-bg {
   background-color: #e9ecef; }
