@@ -20,7 +20,8 @@ footer {
   font-size: 12px; }
 
 .footerLinks a:hover {
-  color: #0e7a70; }
+  color: #0e7a70;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 .form {
   border: 3px solid #e9ecef;
@@ -101,7 +102,9 @@ li a {
   text-align: center;
   padding: 2px 40px;
   text-decoration: none;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 25px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 li a:hover {
   background-color: #044a42; }
@@ -159,7 +162,7 @@ input[type="submit"]:hover {
 .btn-search:hover {
   background-color: #044a42;
   color: #b8e1dd;
-  color: #e9ecef; }
+  color: #b8e1dd; }
 
 .material-icons {
   vertical-align: middle; }

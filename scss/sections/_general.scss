@@ -65,6 +65,9 @@ li a {
     padding: 2px 40px;
     text-decoration: none;
     overflow: hidden;
+    border-radius: 25px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 li a:hover {
@@ -135,7 +138,7 @@ input[type="submit"]:hover {
 .btn-search:hover {
     background-color: $color-four;
     color: #b8e1dd;
-    color: $color-one;
+    color: $color-two;
 }
 
 .material-icons {
