@@ -142,7 +142,8 @@
 }
 
 .card {
-    background-color: $color-one;
+    // background-color: map-get($pallet, color-one);
+    background-color: map-get($pallet, color-one);
 }
 
 .bounceIn {
@@ -172,7 +173,7 @@
 }
 
 .clean-bg {
-    background-color: $color-one;
+    background-color: map-get($pallet, color-one);
 }
 
 @-webkit-keyframes bounceIn {
@@ -264,3 +265,25 @@
         transform: scale3d(1, 1, 1);
     }
 }
+
+/* Test */
+// body{
+//     @if $vista == desktop {
+//         @media only screen and (min-width:$vista){
+//             h1{font-size:$h1Desktop;}
+//             h3{font-size:35px;}
+//             p{font-size:$parrafoDesktop;}
+//             }
+//         } @else if $vista == mobile {
+//             @media only screen and (max-width:767px){
+//                 h1{font-size:$h1Mobile;}
+//                 h3{font-size:25px;}
+//                 p{font-size:$parrafoMobile;}
+//             }
+//         } @else {
+//             h1{font-size:34px;}
+//             h3{font-size:25px;}
+//             p{font-size:20px;}
+//         }
+//     }
+    

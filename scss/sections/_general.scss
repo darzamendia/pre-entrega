@@ -7,22 +7,22 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 4px solid $color-five;
-    background-color: $color-one;
+    border: 4px solid map-get($pallet, color-five);
+    background-color: map-get($pallet, color-one);
     border-radius: 50%;
     width: 90px;
     height: 90px;
 }
 
 .logoBackground {
-    background-color: $color-one;
+    background-color: map-get($pallet, color-one);
     padding: 10px;
 }
 
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: $color-five;
+    background-color: map-get($pallet, color-five);
     display: inline-block;
     text-align: center;
     vertical-align: center;
@@ -45,7 +45,7 @@ li a {
 }
 
 li a:hover {
-    background-color: $color-four;
+    background-color: map-get($pallet, color-four);
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 
 .company {
     text-align: center;
-    color: $color-two;
+    color: map-get($pallet, color-two);
 }
 
 .principal {
@@ -78,7 +78,7 @@ label {
 }
 
 input[type="submit"] {
-    background-color: $color-three;
+    background-color: map-get($pallet, color-three);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -87,26 +87,27 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: $color-four;
+    background-color: map-get($pallet, color-four);
 }
 
 .btn-dark {
     color: #fff;
-    background-color: $color-three;
-    border-color: $color-three;
+    background-color: map-get($pallet, color-three);
+    border-color: map-get($pallet, color-three);
 }
 
 .btn-search {
     background-color: transparent;
     padding: 0.1rem;
     border-radius: 25%;
-    border-color: $color-five;
+    border-color: map-get($pallet, color-five);
 }
 
 .btn-search:hover {
-    background-color: $color-four;
+    background-color: map-get($pallet, color-four);
     color: #b8e1dd;
-    color: $color-two;
+    // color: map-get($pallet, color-two);
+    color: map-get($pallet, color-two);
 }
 
 .material-icons {
@@ -114,7 +115,7 @@ input[type="submit"]:hover {
 }
 
 .navbar {
-    background-color: $color-five;
+    background-color: map-get($pallet, color-five);
     font-family: "Cinzel Decorative";
 }
 
@@ -127,7 +128,7 @@ input[type="submit"]:hover {
 }
 
 .navbar-light .navbar-brand {
-    color: $color-one;
+    color: map-get($pallet, color-one);;
     margin: 0px 10px;
     padding: 0px 30px;
     font-size: 1rem;
@@ -139,24 +140,24 @@ input[type="submit"]:hover {
 }
 
 a:not([href]):hover {
-    color: $color-three;
+    color: map-get($pallet, color-three);
     text-decoration: none;
 }
 
 .card:hover {
-    border: 2px solid $color-three;
+    border: 2px solid map-get($pallet, color-three);
 }
 
 div.gallery {
     margin: 5px;
-    border: 1px solid $color-one;
+    border: 1px solid map-get($pallet, color-one);;
     float: left;
     width: 180px;
-    background-color: $color-two;
+    background-color: map-get($pallet, color-two);
 }
 
 div.gallery:hover {
-    border: 2px solid $color-two;
+    border: 2px solid map-get($pallet, color-two);
 }
 
 div.gallery img {
@@ -174,13 +175,13 @@ div.desc {
 
 div.tool {
     margin: 5px;
-    border: 1px solid $color-one;
+    border: 1px solid map-get($pallet, color-one);;
     float: left;
     width: 180px;
 }
 
 div.tool:hover {
-    border: 2px solid $color-two;
+    border: 2px solid map-get($pallet, color-two);
 }
 
 div.tool img {
@@ -200,11 +201,11 @@ div.desc {
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
     border-radius: 25px;
-    color: $color-two;
+    color: map-get($pallet, color-two);
 }
 
 .active {
-    border: 2px solid $color-three;
+    border: 2px solid map-get($pallet, color-three);
     padding: 10px;
     border-radius: 25px;
 }

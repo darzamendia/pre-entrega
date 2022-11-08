@@ -1,5 +1,5 @@
 footer {
-    background-color: $color-five;
+    background-color: map-get($pallet, color-five);
     width: 100%;
     margin-top: auto;
 }
@@ -9,7 +9,7 @@ footer {
 }
 
 .footerLinks a {
-    color: $color-two;
+    color: map-get($pallet, color-two);
     text-decoration: none;
     padding: 5px 10px;
 }
@@ -20,7 +20,7 @@ footer {
 }
 
 .footerLinks a:hover {
-    color: $color-three;
+    color: map-get($pallet, color-three);
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

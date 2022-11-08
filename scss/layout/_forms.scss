@@ -1,5 +1,5 @@
 .form {
-    border: 3px solid $color-one;
+    border: 3px solid map-get($pallet, color-one);
     background-color: $form-background;
     padding: 10px;
     border-radius: 10px;
@@ -11,9 +11,9 @@
 
 .form-control:focus {
     color: #495057;
-    background-color: $color-one;
+    background-color: map-get($pallet, color-one);
     outline: 0;
-    box-shadow: 0 0 0 0.2rem $color-three;
+    box-shadow: 0 0 0 0.2rem map-get($pallet, color-three);
 }
 
 .form-inline {

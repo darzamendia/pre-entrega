@@ -10,9 +10,9 @@
 
 .indexBackgroundText {
     background-color: $color-index-bg-text;
-    color: $color-one;
+    color: map-get($pallet, color-one);
     font-weight: bold;
-    border: 3px solid $color-one;
+    border: 3px solid map-get($pallet, color-one);
     position: absolute;
     width: 80%;
     padding: 20px;
