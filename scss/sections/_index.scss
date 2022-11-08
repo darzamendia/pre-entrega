@@ -1,5 +1,5 @@
 .indexBackground {
-    background-image: url("../media/seamless2.jpg");
+    background-image: url("../media/seamless.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: repeat;
@@ -10,7 +10,7 @@
 
 .indexBackgroundText {
     background-color: $color-index-bg-text;
-    color: color-one;
+    color: $color-one;
     font-weight: bold;
     border: 3px solid $color-one;
     position: absolute;

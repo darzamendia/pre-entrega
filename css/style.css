@@ -45,28 +45,6 @@ header {
   top: 0;
   height: auto; }
 
-.searchContainer button {
-  float: left;
-  padding: 2px 4px;
-  background: #ccc;
-  font-size: 14px;
-  margin: 5px;
-  border: #111; }
-
-.searchContainer input[type="text"] {
-  border: 1px solid #ccbcdb;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 30%;
-  justify-content: flex-start; }
-
-.searchContainer button:hover {
-  background: #b8e1dd; }
-
-.searchContainer {
-  background-color: #081c15; }
-
 .input-search {
   height: 1.5rem;
   font-family: "Ubuntu"; }
@@ -125,11 +103,6 @@ body {
 .container {
   border-radius: 5px;
   padding: 20px; }
-
-.contactContainer {
-  text-align: center;
-  margin: auto;
-  width: 35%; }
 
 .containerCenter {
   justify-content: center; }
@@ -194,11 +167,6 @@ a:not([href]):hover {
 .card:hover {
   border: 2px solid #0e7a70; }
 
-.galeryContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
 div.gallery {
   margin: 5px;
   border: 1px solid #e9ecef;
@@ -220,11 +188,6 @@ div.desc {
   font-weight: bold;
   font-size: 12px; }
 
-.toolContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
 div.tool {
   margin: 5px;
   border: 1px solid #e9ecef;
@@ -241,24 +204,6 @@ div.tool img {
 div.desc {
   padding: 15px;
   text-align: center; }
-
-div.too1Container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 80vh; }
-
-div.tool1Desc {
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  margin: auto; }
-
-.tool1Left {
-  width: 30%; }
-
-.tool1Right {
-  width: 70%; }
 
 .navbar-collapse {
   flex-grow: initial; }
@@ -278,7 +223,7 @@ div.tool1Desc {
   position: relative; }
 
 .indexBackground {
-  background-image: url("../media/seamless2.jpg");
+  background-image: url("../media/seamless.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: repeat;
@@ -288,7 +233,7 @@ div.tool1Desc {
 
 .indexBackgroundText {
   background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  color: #e9ecef;
   font-weight: bold;
   border: 3px solid #e9ecef;
   position: absolute;
@@ -372,7 +317,6 @@ div.tool1Desc {
     flex: 50%;
     max-width: 50%; } }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -419,6 +363,12 @@ div.tool1Desc {
   margin-right: auto;
   width: 15rem;
   height: 15rem; }
+
+.toolIcon-left {
+  display: block;
+  margin: 10px;
+  width: 5rem;
+  height: 5rem; }
 
 .clean-bg {
   background-color: #e9ecef; }
