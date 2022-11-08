@@ -253,6 +253,10 @@ div.desc {
   font-weight: normal;
   margin-bottom: 10px; }
 
+.cb-link {
+  color: #721c24;
+  font-weight: bold; }
+
 .jumbotron {
   padding: 0;
   margin-bottom: 0;
