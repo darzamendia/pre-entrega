@@ -1,4 +1,5 @@
 @import "utilities/variables";
+@import "utilities/mixins";
 
 @import "base/reset";
 
@@ -16,8 +17,7 @@
 
 @media screen and (min-width: 768px) {
     .logo {
-        width: 120px;
-        height: 120px;
+        @include sizes(120px, 120px);
     }
 
     ul li {
@@ -39,8 +39,7 @@
 
 @media screen and (min-width: 1024px) {
     .logo {
-        width: 150px;
-        height: 150px;
+        @include sizes(150px, 150px);
     }
 
     ul li {
@@ -85,11 +84,13 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s linear;
+    &:hover {
+        filter: grayscale(0);
+    }
 }
 
-.column img:hover {
-    filter: grayscale(0);
-}
+// .column img:hover {
+// }
 
 @media screen and (max-width: 800px) {
     .column {
@@ -141,11 +142,6 @@
     }
 }
 
-.card {
-    // background-color: map-get($pallet, color-one);
-    background-color: map-get($pallet, color-one);
-}
-
 .bounceIn {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
@@ -161,15 +157,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15rem;
-    height: 15rem;
+    @include sizes(15rem, 15rem);
 }
 
 .toolIcon-left {
     display: block;
     margin: 10px;
-    width: 5rem;
-    height: 5rem;
+    @include sizes(5rem, 5rem);
 }
 
 .clean-bg {
@@ -265,25 +259,3 @@
         transform: scale3d(1, 1, 1);
     }
 }
-
-/* Test */
-// body{
-//     @if $vista == desktop {
-//         @media only screen and (min-width:$vista){
-//             h1{font-size:$h1Desktop;}
-//             h3{font-size:35px;}
-//             p{font-size:$parrafoDesktop;}
-//             }
-//         } @else if $vista == mobile {
-//             @media only screen and (max-width:767px){
-//                 h1{font-size:$h1Mobile;}
-//                 h3{font-size:25px;}
-//                 p{font-size:$parrafoMobile;}
-//             }
-//         } @else {
-//             h1{font-size:34px;}
-//             h3{font-size:25px;}
-//             p{font-size:20px;}
-//         }
-//     }
-    

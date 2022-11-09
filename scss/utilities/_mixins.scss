@@ -1,0 +1,8 @@
+@mixin transition-one {
+	transition: all 0.3s ease;
+}
+
+@mixin sizes($width, $height) {
+	width: $width;
+	height: $height;
+}

@@ -27,8 +27,7 @@
 }
 
 .newform input {
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     border: none;
     color: map-get($pallet , color-four);
     padding-top: 20px;
@@ -36,8 +35,7 @@
 }
 
 .newform select {
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     color: map-get($pallet , color-five);
     border: none;
     color: map-get($pallet , color-four);
@@ -49,8 +47,7 @@
     position: absolute;
     margin: 0px;
     bottom: 0px;
-    width: 100%;
-    height: 100%;
+    @include sizes(100%, 100%);
     pointer-events: none;
     overflow: hidden;
 }
@@ -60,11 +57,10 @@
     position: absolute;
     left: 0px;
     bottom: -1px;
-    height: 100%;
-    width:  100%;
     border-bottom: 3px solid map-get($pallet, color-three);
     transform: translateX(-100%);
-    transition: all 0.3s ease;
+    @include sizes(100%, 100%);
+    @include transition-one;
     overflow: hidden;
 }
 
@@ -73,7 +69,7 @@
     bottom: 5px;
     color: map-get($input, color-inactive);
     left: 5px;
-    transition: all 0.3s ease;
+    @include transition-one;
 }
 
 .newform input:focus + .label-name .content-name, 
