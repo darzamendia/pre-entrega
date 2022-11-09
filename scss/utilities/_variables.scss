@@ -7,23 +7,22 @@ $pallet: (
     color-five: #081c15
     );
 
+$input: ( 
+    color-active: rgb(49, 49, 49),
+    color-inactive: grey,
+    );
+    
 $screen-size: (
     desktop: 1024px,
     tablet: 10px,
     mobile: 5px
     );
-// $color-one: #e9ecef;
-// $color-two: #b8e1dd;
-// $color-three: #0e7a70;
-// $color-four: #044a42;
-// $color-five: #081c15;
-
 
 // Lil feat. 
-
 $vista: 1024px;
 
 $color-error: #721c24;
 $color-index-bg-text: rgba(0, 0, 0, 0.8);
-$form-background: rgba(6, 41, 37, 0.9);
+$color-index-bg-textss: rgba(6, 41, 37, 0.822);
+$form-background: rgba(6, 41, 37, 0.8);
 $transparent: rgba(255, 255, 255, 0);

@@ -1,7 +1,7 @@
 {
-    "name": "proyecto",
+    "name": "Desarrollo web - Coderhouse",
     "version": "1.0.0",
-    "description": "preentrega",
+    "description": "Proyecto para curso coderhouse - Desarrollo web",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

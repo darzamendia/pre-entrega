@@ -146,6 +146,7 @@ a:not([href]):hover {
 
 .card:hover {
     border: 2px solid map-get($pallet, color-three);
+    background-color: map-get($pallet, color-two);
 }
 
 div.gallery {

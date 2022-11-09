@@ -1,11 +1,13 @@
 .indexBackground {
-    background-image: url("../media/seamless.jpg");
-    height: 100vh;
+    background-image: url("../media/indexbg.svg");
+    height: 110vh;
     background-position: center;
-    background-repeat: repeat;
+    background-position: left top;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    -webkit-background-size: cover;
 }
 
 .indexBackgroundText {
@@ -17,6 +19,7 @@
     width: 80%;
     padding: 20px;
     margin: 10px;
+    margin-top: 18rem;
     text-align: center;
     animation: myAnim 1s ease 0s 1 normal forwards;
 }
