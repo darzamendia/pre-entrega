@@ -185,22 +185,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #044a42; }
 
-.btn-dark {
-  color: #fff;
-  background-color: #0e7a70;
-  border-color: #0e7a70; }
-
-.btn-search {
-  background-color: transparent;
-  padding: 0.1rem;
-  border-radius: 25%;
-  border-color: #081c15; }
-
-.btn-search:hover {
-  background-color: #044a42;
-  color: #b8e1dd;
-  color: #b8e1dd; }
-
 .material-icons {
   vertical-align: middle; }
 
@@ -324,6 +308,32 @@ div.desc {
 .cb-link {
   color: #721c24;
   font-weight: bold; }
+
+@media screen and (min-width: 576px) {
+  .btn-dark {
+    color: #e9ecef;
+    background-color: #044a42;
+    border: none; }
+  .btn-search {
+    background-color: #044a42;
+    padding: 0.1rem;
+    border-radius: 25%;
+    border-color: #081c15; } }
+
+@media screen and (min-width: 768px) {
+  .btn-dark {
+    color: #e9ecef;
+    background-color: transparent;
+    border: none; }
+  .btn-search {
+    padding: 0.1rem;
+    border-radius: 25%;
+    border-color: #081c15; } }
+
+.btn-dark:hover,
+.btn-search:hover {
+  background-color: #044a42;
+  color: #b8e1dd; }
 
 .jumbotron {
   padding: 0;

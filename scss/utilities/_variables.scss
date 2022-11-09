@@ -4,7 +4,8 @@ $pallet: (
     color-two: #b8e1dd,
     color-three: #0e7a70,
     color-four: #044a42,
-    color-five: #081c15
+    color-five: #081c15,
+    color-transparent: transparent
     );
 
 $input: ( 
@@ -14,12 +15,13 @@ $input: (
     
 $screen-size: (
     desktop: 1024px,
-    tablet: 10px,
-    mobile: 5px
+    tablet: 768px,
+    mobile: 576px
     );
 
-// Lil feat. 
-$vista: 1024px;
+// $tablet: 768px;
+// // Lil feat. 
+// $vista: 1024px;
 
 $color-error: #721c24;
 $color-index-bg-text: rgba(0, 0, 0, 0.8);

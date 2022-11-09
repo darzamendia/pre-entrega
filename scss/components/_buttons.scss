@@ -1,0 +1,37 @@
+@media screen and (min-width: map-get($screen-size, mobile)) {
+    .btn-dark {
+        color: map-get($pallet, color-one);
+        background-color: map-get($pallet, color-four);
+        border: none;
+    }
+
+    .btn-search {
+        background-color: map-get($pallet, color-four);
+        padding: 0.1rem;
+        border-radius: 25%;
+        border-color: map-get($pallet, color-five);
+    }
+
+}
+
+@media screen and (min-width: map-get($screen-size, tablet)) {
+    .btn-dark {
+        color: map-get($pallet, color-one);
+        background-color: map-get($pallet, color-transparent);
+        border: none;
+    }
+
+    .btn-search {
+        background-color: map-get($pallet, color-transpart);
+        padding: 0.1rem;
+        border-radius: 25%;
+        border-color: map-get($pallet, color-five);
+    }
+
+}
+
+.btn-dark:hover,
+.btn-search:hover {
+    background-color: map-get($pallet, color-four);
+    color: map-get($pallet, color-two);
+}

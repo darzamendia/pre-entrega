@@ -90,25 +90,6 @@ input[type="submit"]:hover {
     background-color: map-get($pallet, color-four);
 }
 
-.btn-dark {
-    color: #fff;
-    background-color: map-get($pallet, color-three);
-    border-color: map-get($pallet, color-three);
-}
-
-.btn-search {
-    background-color: transparent;
-    padding: 0.1rem;
-    border-radius: 25%;
-    border-color: map-get($pallet, color-five);
-}
-
-.btn-search:hover {
-    background-color: map-get($pallet, color-four);
-    color: #b8e1dd;
-    // color: map-get($pallet, color-two);
-    color: map-get($pallet, color-two);
-}
 
 .material-icons {
     vertical-align: middle;
