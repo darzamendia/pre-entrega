@@ -11,6 +11,8 @@
     background-color: map-get($pallet, color-one);
     border-radius: 50%;
     @include sizes(90px, 90px);
+    @include sizes-logo(map-get($screen-size, tablet));
+    @include sizes-logo(map-get($screen-size, desktop));
 }
 
 .logoBackground {

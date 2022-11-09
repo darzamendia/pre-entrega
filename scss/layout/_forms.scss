@@ -7,13 +7,12 @@
 
 .form-control {
     margin-right: 1rem;
-}
-
-.form-control:focus {
-    color: map-get($pallet, color-five);
-    background-color: map-get($pallet, color-two);
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem transparent;
+    &:focus {
+        color: map-get($pallet, color-five);
+        background-color: map-get($pallet, color-two);
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem transparent;
+    }
 }
 
 .form-inline {

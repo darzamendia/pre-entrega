@@ -16,9 +16,9 @@
 @import "components/jumbo";
 
 @media screen and (min-width: 768px) {
-    .logo {
-        @include sizes(120px, 120px);
-    }
+    // .logo {
+    //     @include sizes(120px, 120px);
+    // }
 
     ul li {
         float: left;
@@ -38,9 +38,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .logo {
-        @include sizes(150px, 150px);
-    }
+    // .logo {
+    //     @include sizes(150px, 150px);
+    // }
 
     ul li {
         float: left;
@@ -259,3 +259,39 @@
         transform: scale3d(1, 1, 1);
     }
 }
+
+$screen-mobile: 576px;
+$screen-tablet: 768px;
+$screen-desktop: 1024px;
+
+@mixin column($screen) {
+    @if $screen ==$screen-mobile {
+        @media screen and (max-width: $screen-mobile) {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    @else if $screen ==$screen-tablet {
+        @media screen and (max-width: $screen-tablet) {
+            flex: 70%;
+            max-width: 70%;
+        }
+    }
+
+    @else {
+        @media screen and (max-width: $screen-desktop) {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+.column {
+    @include column($screen-mobile);
+    @include column($screen-tablet);
+    @include column($screen-desktop);
+}
+
+
+
