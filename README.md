@@ -1,10 +1,11 @@
 # Bienvenido a mi proyecto para el curso Desarrollo Web de CoderHouse 💻
 
-En esta oportunidad, la preentrega2 contiene:
+En esta oportunidad, la preentrega3 contiene:
 
 -   Incorporacion de animaciones
 -   Comportamiento responsivo mediante el uso de flexbox y bootstrap
 -   Creacion de repositorio Github y publicacion del proyecto
+-   Incorporacion de Sass
 
 ## Responsive 🛠️
 
