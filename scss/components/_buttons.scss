@@ -1,8 +1,16 @@
+.btn-dark, {
+    background-color: map-get($pallet, color-four);
+    border: none;
+}
+
+.btn-search {
+    @extend .btn-dark;
+    padding: 0;
+}
+
 @media screen and (min-width: map-get($screen-size, mobile)) {
     .btn-dark {
         color: map-get($pallet, color-one);
-        background-color: map-get($pallet, color-four);
-        border: none;
     }
 
     .btn-search {
@@ -11,7 +19,6 @@
         border-radius: 25%;
         border-color: map-get($pallet, color-five);
     }
-
 }
 
 @media screen and (min-width: map-get($screen-size, tablet)) {

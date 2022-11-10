@@ -24,7 +24,7 @@
 @mixin sizes-indexBg($screen) {
 	@if $screen ==map-get($screen-size, desktop) {
 		@media screen and (min-width: map-get($screen-size, desktop)) {
-			height: 110vh;
+			height: 100vh;
 		}
 	}
 

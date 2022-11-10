@@ -180,7 +180,7 @@ li a:hover {
   background-color: #044a42; }
 
 body {
-  background-color: white;
+  background-color: #e9ecef;
   font-family: "Ubuntu";
   min-height: 100vh; }
 
@@ -196,11 +196,11 @@ body {
   justify-content: center; }
 
 label {
-  color: white; }
+  color: #e9ecef; }
 
 input[type="submit"] {
   background-color: #0e7a70;
-  color: white;
+  color: #e9ecef;
   padding: 10px 15px;
   border: none;
   cursor: pointer; }
@@ -235,6 +235,7 @@ a:not([href]):hover {
   text-decoration: none; }
 
 .card {
+  border: transparent;
   background-color: #e9ecef; }
   .card:hover {
     border: 2px solid #0e7a70;
@@ -259,18 +260,17 @@ a:not([href]):hover {
 .indexBackground {
   background-image: url("../media/indexbg.svg");
   height: 70vh;
-  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  -webkit-background-size: cover; }
+  align-items: center; }
   @media screen and (min-width: 768px) {
     .indexBackground {
       height: 90vh; } }
   @media screen and (min-width: 1024px) {
     .indexBackground {
-      height: 110vh; } }
+      height: 100vh; } }
 
 .indexBackgroundText {
   background-color: rgba(0, 0, 0, 0.8);
@@ -280,15 +280,8 @@ a:not([href]):hover {
   width: 80%;
   padding: 20px;
   margin: 10px;
-  margin-top: 8rem;
   text-align: center;
   animation: myAnim 1s ease 0s 1 normal forwards; }
-  @media screen and (min-width: 768px) {
-    .indexBackgroundText {
-      margin-top: 13rem; } }
-  @media screen and (min-width: 1024px) {
-    .indexBackgroundText {
-      margin-top: 18rem; } }
 
 .indexTitle {
   font-family: "Cinzel Decorative";
@@ -316,11 +309,16 @@ a:not([href]):hover {
   color: #721c24;
   font-weight: bold; }
 
+.btn-dark, .btn-search {
+  background-color: #044a42;
+  border: none; }
+
+.btn-search {
+  padding: 0; }
+
 @media screen and (min-width: 576px) {
-  .btn-dark {
-    color: #e9ecef;
-    background-color: #044a42;
-    border: none; }
+  .btn-dark, .btn-search {
+    color: #e9ecef; }
   .btn-search {
     background-color: #044a42;
     padding: 0.1rem;
@@ -328,7 +326,7 @@ a:not([href]):hover {
     border-color: #081c15; } }
 
 @media screen and (min-width: 768px) {
-  .btn-dark {
+  .btn-dark, .btn-search {
     color: #e9ecef;
     background-color: transparent;
     border: none; }
@@ -337,7 +335,7 @@ a:not([href]):hover {
     border-radius: 25%;
     border-color: #081c15; } }
 
-.btn-dark:hover,
+.btn-dark:hover, .btn-search:hover,
 .btn-search:hover {
   background-color: #044a42;
   color: #b8e1dd; }
@@ -379,7 +377,7 @@ a:not([href]):hover {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(1) brightness(0.5);
+  filter: grayscale(1) brightness(0.4);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s linear; }

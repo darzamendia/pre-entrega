@@ -1,12 +1,12 @@
 .indexBackground {
     background-image: url("../media/indexbg.svg");
     height: 70vh;
-    background-position: center;
+    // background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    -webkit-background-size: cover;
+    align-items: center;
     @include sizes-indexBg(map-get($screen-size, tablet));
     @include sizes-indexBg(map-get($screen-size, desktop));
 }
@@ -19,11 +19,8 @@
     width: 80%;
     padding: 20px;
     margin: 10px;
-    margin-top: 8rem;
     text-align: center;
     animation: myAnim 1s ease 0s 1 normal forwards;
-    @include sizes-bgtext(map-get($screen-size, tablet));
-    @include sizes-bgtext(map-get($screen-size, desktop));
 }
 
 .indexTitle {

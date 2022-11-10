@@ -64,7 +64,7 @@ li a:hover {
 }
 
 body {
-    background-color: white;
+    background-color: map-get($pallet, color-one);
     font-family: "Ubuntu";
     min-height: 100vh;
 }
@@ -84,12 +84,12 @@ body {
 }
 
 label {
-    color: white;
+    color: map-get($pallet, color-one);
 }
 
 input[type="submit"] {
     background-color: map-get($pallet, color-three);
-    color: white;
+    color: map-get($pallet, color-one);
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -133,7 +133,12 @@ a:not([href]):hover {
 }
 
 .card {
+    border: transparent;
     background-color: map-get($pallet, color-one);
+    // transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    // border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    
     &:hover {
         border: 2px solid map-get($pallet, color-three);
         background-color: map-get($pallet, color-two);
