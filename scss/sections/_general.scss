@@ -1,3 +1,16 @@
+h1 {
+    font-size: 30px;
+    @include sizes-font(map-get($screen-size, tablet), 40px);
+    @include sizes-font(map-get($screen-size, desktop), 50px);
+}
+
+.responsive-p {
+    font-weight: none;
+    font-size: 13px;
+    @include sizes-font(map-get($screen-size, tablet), 16px);
+    @include sizes-font(map-get($screen-size, desktop), 18px);
+}
+
 .input-search {
     height: 1.5rem;
     font-family: "Ubuntu";
@@ -17,6 +30,7 @@
 
 .logoBackground {
     background-color: map-get($pallet, color-one);
+    background-color: map-get($pallet, color-five);
     padding: 10px;
 }
 
@@ -78,7 +92,6 @@ input[type="submit"] {
     color: white;
     padding: 10px 15px;
     border: none;
-    // border-radius: 4px;
     cursor: pointer;
     &:hover {
         background-color: map-get($pallet, color-four);
@@ -144,6 +157,5 @@ a:not([href]):hover {
 }
 
 .sticky-top {
-    /* Se deshabilita el sticky por default de bootstrap para las versiones mobile/ipad */
     position: relative;
 }

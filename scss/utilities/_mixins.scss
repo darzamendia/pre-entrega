@@ -7,6 +7,34 @@
 	height: $height;
 }
 
+@mixin sizes-font($screen, $size) {
+	@if $screen ==map-get($screen-size, desktop) {
+		@media screen and (min-width: map-get($screen-size, desktop)) {
+			font-size: $size;
+		}
+	}
+
+	@else if $screen ==map-get($screen-size, tablet) {
+		@media screen and (min-width: map-get($screen-size, tablet)) {
+			font-size: $size;
+		}
+	}
+}
+
+@mixin sizes-indexBg($screen) {
+	@if $screen ==map-get($screen-size, desktop) {
+		@media screen and (min-width: map-get($screen-size, desktop)) {
+			height: 110vh;
+		}
+	}
+
+	@else if $screen ==map-get($screen-size, tablet) {
+		@media screen and (min-width: map-get($screen-size, tablet)) {
+			height: 90vh;
+		}
+	}
+}
+
 @mixin sizes-logo($screen) {
 	@if $screen == map-get($screen-size, desktop) {
 		@media screen and (min-width: map-get($screen-size, desktop)) {
@@ -17,6 +45,20 @@
 	@else if $screen == map-get($screen-size, tablet) {
 		@media screen and (min-width: map-get($screen-size, tablet)) {
 			@include sizes(120px, 120px);
+		}
+	}
+}
+
+@mixin sizes-bgtext($screen) {
+	@if $screen == map-get($screen-size, desktop) {
+		@media screen and (min-width: map-get($screen-size, desktop)) {
+			margin-top: 18rem;
+		}
+	}
+	
+	@else if $screen == map-get($screen-size, tablet) {
+		@media screen and (min-width: map-get($screen-size, tablet)) {
+			margin-top: 13rem;
 		}
 	}
 }

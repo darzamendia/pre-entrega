@@ -7,7 +7,8 @@ footer {
   width: 100%;
   margin-top: auto; }
 
-.footerlinks {
+p.footerlinks {
+  font-size: 12px;
   padding: 10px; }
 
 .footerLinks a {
@@ -108,6 +109,25 @@ header {
   top: 0;
   height: auto; }
 
+h1 {
+  font-size: 30px; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 40px; } }
+  @media screen and (min-width: 1024px) {
+    h1 {
+      font-size: 50px; } }
+
+.responsive-p {
+  font-weight: none;
+  font-size: 13px; }
+  @media screen and (min-width: 768px) {
+    .responsive-p {
+      font-size: 16px; } }
+  @media screen and (min-width: 1024px) {
+    .responsive-p {
+      font-size: 18px; } }
+
 .input-search {
   height: 1.5rem;
   font-family: "Ubuntu"; }
@@ -132,6 +152,7 @@ header {
 
 .logoBackground {
   background-color: #e9ecef;
+  background-color: #081c15;
   padding: 10px; }
 
 ul {
@@ -233,42 +254,63 @@ a:not([href]):hover {
   border-radius: 25px; }
 
 .sticky-top {
-  /* Se deshabilita el sticky por default de bootstrap para las versiones mobile/ipad */
   position: relative; }
 
 .indexBackground {
   background-image: url("../media/indexbg.svg");
-  height: 110vh;
+  height: 70vh;
   background-position: center;
-  background-position: left top;
   background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
   -webkit-background-size: cover; }
+  @media screen and (min-width: 768px) {
+    .indexBackground {
+      height: 90vh; } }
+  @media screen and (min-width: 1024px) {
+    .indexBackground {
+      height: 110vh; } }
 
 .indexBackgroundText {
   background-color: rgba(0, 0, 0, 0.8);
   color: #e9ecef;
-  font-weight: bold;
   border: 3px solid #e9ecef;
   position: absolute;
   width: 80%;
   padding: 20px;
   margin: 10px;
-  margin-top: 18rem;
+  margin-top: 8rem;
   text-align: center;
   animation: myAnim 1s ease 0s 1 normal forwards; }
+  @media screen and (min-width: 768px) {
+    .indexBackgroundText {
+      margin-top: 13rem; } }
+  @media screen and (min-width: 1024px) {
+    .indexBackgroundText {
+      margin-top: 18rem; } }
 
 .indexTitle {
-  font-size: 10vw;
-  font-family: "Cinzel Decorative"; }
+  font-family: "Cinzel Decorative";
+  font-size: 10vw; }
+  @media screen and (min-width: 768px) {
+    .indexTitle {
+      font-size: 7vw; } }
+  @media screen and (min-width: 1024px) {
+    .indexTitle {
+      font-size: 500%; } }
 
 .indexSubTitle {
-  font-size: 4vw;
   font-family: "Cinzel Decorative";
   font-weight: normal;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 4vw; }
+  @media screen and (min-width: 768px) {
+    .indexSubTitle {
+      font-size: 3vw; } }
+  @media screen and (min-width: 1024px) {
+    .indexSubTitle {
+      font-size: 2vw; } }
 
 .cb-link {
   color: #721c24;
@@ -308,20 +350,12 @@ a:not([href]):hover {
 @media screen and (min-width: 768px) {
   ul li {
     float: left; }
-  .indexTitle {
-    font-size: 6vw; }
-  .indexSubTitle {
-    font-size: 3vw; }
   .sticky-top {
     position: sticky; } }
 
 @media screen and (min-width: 1024px) {
   ul li {
-    float: left; }
-  .indexTitle {
-    font-size: 5vw; }
-  .indexSubTitle {
-    font-size: 2vw; } }
+    float: left; } }
 
 .fadeIn {
   -webkit-animation-name: fadeIn;
@@ -471,18 +505,3 @@ a:not([href]):hover {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
-
-@media screen and (max-width: 576px) {
-  .column {
-    flex: 50%;
-    max-width: 50%; } }
-
-@media screen and (max-width: 768px) {
-  .column {
-    flex: 70%;
-    max-width: 70%; } }
-
-@media screen and (max-width: 1024px) {
-  .column {
-    flex: 100%;
-    max-width: 100%; } }
