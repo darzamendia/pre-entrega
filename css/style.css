@@ -236,7 +236,8 @@ a:not([href]):hover {
 
 .card {
   border: transparent;
-  background-color: #e9ecef; }
+  background-color: #e9ecef;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .card:hover {
     border: 2px solid #0e7a70;
     background-color: #b8e1dd; }
