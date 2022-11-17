@@ -36,7 +36,7 @@ h1 {
 
 ul {
     list-style-type: none;
-    overflow: hidden;
+    // overflow: hidden;
     background-color: map-get($pallet, color-five);
     display: inline-block;
     text-align: center;
@@ -57,10 +57,9 @@ li a {
     border-radius: 25px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-li a:hover {
-    background-color: map-get($pallet, color-four);
+    &:hover {
+        background-color: map-get($pallet, color-four);
+    }
 }
 
 body {

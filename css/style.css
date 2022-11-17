@@ -109,6 +109,22 @@ header {
   top: 0;
   height: auto; }
 
+.dropdown-item {
+  color: #e9ecef; }
+
+.dropdown-menu {
+  padding: 5px 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  left: auto;
+  background: #98a3a785;
+  font-family: "Ubuntu"; }
+  .dropdown-menu:focus,
+  .dropdown-menu :hover {
+    text-decoration: none;
+    color: #b8e1dd;
+    background-color: #044a42; }
+
 h1 {
   font-size: 30px; }
   @media screen and (min-width: 768px) {
@@ -157,7 +173,6 @@ h1 {
 
 ul {
   list-style-type: none;
-  overflow: hidden;
   background-color: #081c15;
   display: inline-block;
   text-align: center;
@@ -175,9 +190,8 @@ li a {
   overflow: hidden;
   border-radius: 25px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-
-li a:hover {
-  background-color: #044a42; }
+  li a:hover {
+    background-color: #044a42; }
 
 body {
   background-color: #e9ecef;

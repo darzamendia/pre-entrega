@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap">
     <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ubuntu:wght@300;400&display=swap">
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Ubuntu:wght@300;400&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./media/favicon-32x32.png">
@@ -35,7 +35,7 @@
                         <span class="material-icons">search</span>
                     </button>
                     <input class="form-control mr-sm-2 input-search" type="search" placeholder="Buscar..."
-                    aria-label="Search">
+                        aria-label="Search">
                 </form>
             </div>
         </nav>
@@ -48,7 +48,18 @@
                     <li><a class="navbar-brand active">Inicio</a></li>
                     <li><a class="navbar-brand" href="./sections/contacto.html">Contato</a></li>
                     <li><a class="navbar-brand" href="./sections/galeria.html">Galeria</a></li>
-                    <li><a class="navbar-brand" href="./sections/herramientas.html">Herramientas</a></li>
+                    <li><a class="navbar-brand dropdown-toggle" href="./sections/herramientas.html" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Herramientas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="./sections/vpd.html">VPD</a>
+                            <a class="dropdown-item" href="./sections/inprogress.html">Riego</a>
+                            <a class="dropdown-item" href="./sections/inprogress.html">Iluminaria</a>
+                            <a class="dropdown-item" href="./sections/inprogress.html">Planificacion</a>
+                            <a class="dropdown-item" href="./sections/inprogress.html">Biblioteca</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
