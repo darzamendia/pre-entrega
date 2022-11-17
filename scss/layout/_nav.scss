@@ -1,23 +1,42 @@
 .dropdown-item {
     color: map-get($pallet , color-one);
+    // padding: 0;
 }
 .dropdown-menu {
-    padding: 5px 10px;
+    // padding: 5px 10px;
     margin-left: 30px;
-    margin-top: 10px;
     left: auto;
     background: #98a3a785;
     font-family: "Ubuntu";
+    transition: all 0.3s ease;
     &:focus,
     :hover {
         text-decoration: none;
         color: map-get($pallet , color-two);
-        background-color: map-get($pallet , color-four)
+        background-color: map-get($pallet , color-four);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
-// .dropdown-item:focus, .dropdown-item:hover {
-//     color: #16181b;
-//     text-decoration: none;
-//     background-color: #f8f9fa;
+
+// .dropdown-menu::after {
+//         display: flex;
+//         flex-direction: column;
 // }
+
+// .dropdown-menu {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .dropdown-menu.show {
+//     // display: flex;
+//     flex-direction: column;
+// }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}

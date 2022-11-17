@@ -113,17 +113,23 @@ header {
   color: #e9ecef; }
 
 .dropdown-menu {
-  padding: 5px 10px;
   margin-left: 30px;
-  margin-top: 10px;
   left: auto;
   background: #98a3a785;
-  font-family: "Ubuntu"; }
+  font-family: "Ubuntu";
+  transition: all 0.3s ease; }
   .dropdown-menu:focus,
   .dropdown-menu :hover {
     text-decoration: none;
     color: #b8e1dd;
-    background-color: #044a42; }
+    background-color: #044a42;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: flex;
+  flex-direction: column; }
 
 h1 {
   font-size: 30px; }
