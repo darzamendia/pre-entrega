@@ -24,6 +24,11 @@ p.footerlinks {
   color: #0e7a70;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
+.footer-ext {
+  background-size: cover;
+  height: 13vh;
+  background-image: url("../media/footerextbg2.svg"); }
+
 .form {
   border: 3px solid #e9ecef;
   background-color: rgba(6, 41, 37, 0.8);
@@ -147,6 +152,12 @@ header {
 a:hover {
   text-decoration: none; }
 
+.nav-ext {
+  height: 1vh;
+  background-size: cover;
+  height: 10vh;
+  background-image: url("../media/navextbg2.svg"); }
+
 h1 {
   font-size: 30px; }
   @media screen and (min-width: 768px) {
@@ -205,7 +216,7 @@ ul li {
 
 li a {
   display: block;
-  color: white;
+  color: #e9ecef;
   text-align: center;
   padding: 2px 40px;
   text-decoration: none;
@@ -227,7 +238,7 @@ body {
 
 .container {
   border-radius: 5px;
-  padding: 20px; }
+  padding: 10vh 4vh; }
 
 .containerCenter {
   justify-content: center; }
@@ -468,8 +479,8 @@ a:not([href]):hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15rem;
-  height: 15rem; }
+  width: 10rem;
+  height: 10rem; }
 
 .toolIcon-left {
   display: block;

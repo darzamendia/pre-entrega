@@ -25,3 +25,9 @@ p.footerlinks {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+.footer-ext {
+    background-size: cover;
+    height: 13vh;
+    background-image: url("../media/footerextbg2.svg");
+}

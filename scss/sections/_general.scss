@@ -48,7 +48,7 @@ ul li {
 
 li a {
     display: block;
-    color: white;
+    color: map-get($pallet, color-one);
     text-align: center;
     padding: 2px 40px;
     text-decoration: none;
@@ -75,7 +75,7 @@ body {
 
 .container {
     border-radius: 5px;
-    padding: 20px;
+    padding: 10vh 4vh;
 }
 
 .containerCenter {
