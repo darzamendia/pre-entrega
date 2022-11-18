@@ -27,7 +27,7 @@ p.footerlinks {
 .footer-ext {
   background-size: cover;
   height: 13vh;
-  background-image: url("../media/footerextbg2.svg"); }
+  background-image: url("../media/footerextbg.svg"); }
 
 .form {
   border: 3px solid #e9ecef;
@@ -156,7 +156,7 @@ a:hover {
   height: 1vh;
   background-size: cover;
   height: 10vh;
-  background-image: url("../media/navextbg2.svg"); }
+  background-image: url("../media/navextbg.svg"); }
 
 h1 {
   font-size: 30px; }
