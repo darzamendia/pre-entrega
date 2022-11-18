@@ -11,7 +11,7 @@
 }
 
 .indexBackgroundText {
-    background-color: $color-index-bg-text;
+    background-color: map-get($special-pallet, transparency-two);
     color: map-get($pallet, color-one);
     border: 3px solid map-get($pallet, color-one);
     position: absolute;

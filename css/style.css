@@ -116,7 +116,7 @@ header {
   margin-left: 30px;
   left: auto;
   color: #e9ecef;
-  background: #98a3a785;
+  background: rgba(0, 0, 0, 0.8);
   font-family: "Ubuntu";
   transition: all 0.3s ease; }
   .dropdown-menu:hover {
@@ -140,6 +140,12 @@ header {
   background-color: #044a42;
   color: #b8e1dd;
   padding: 2px 15px; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+a:hover {
+  text-decoration: none; }
 
 h1 {
   font-size: 30px; }
@@ -207,7 +213,8 @@ li a {
   border-radius: 25px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   li a:hover {
-    background-color: #044a42; }
+    background-color: #044a42;
+    color: #b8e1dd; }
 
 body {
   background-color: #e9ecef;
@@ -258,7 +265,7 @@ input[type="submit"] {
 
 .navbar-brand {
   display: inherit;
-  border: 2px solid rgba(255, 255, 255, 0); }
+  border: 2px solid rgba(0, 0, 0, 0); }
 
 a:not([href]):hover {
   color: #0e7a70;
@@ -282,7 +289,7 @@ a:not([href]):hover {
 
 .active {
   border: 2px solid #0e7a70;
-  padding: 10px;
+  padding: 0px 30px;
   border-radius: 25px; }
 
 .sticky-top {
@@ -359,7 +366,7 @@ a:not([href]):hover {
 @media screen and (min-width: 768px) {
   .btn-dark, .btn-search {
     color: #e9ecef;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     border: none; }
   .btn-search {
     padding: 0.1rem;

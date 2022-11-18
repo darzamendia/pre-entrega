@@ -5,8 +5,15 @@ $pallet: (
     color-three: #0e7a70,
     color-four: #044a42,
     color-five: #081c15,
-    color-transparent: transparent
     );
+
+$special-pallet: (
+    color-error: #721c24,
+    transparency-full: rgba(0, 0, 0, 0),
+    transparency-one: rgba(0, 0, 0, 0.8),
+    transparency-two: rgba(0, 0, 0, 0.8),
+    green-transparency-two: rgba(6, 41, 37, 0.8),
+);
 
 $input: ( 
     color-active: rgb(49, 49, 49),
@@ -18,9 +25,3 @@ $screen-size: (
     tablet: 768px,
     mobile: 576px
     );
-    
-$color-error: #721c24;
-$color-index-bg-text: rgba(0, 0, 0, 0.8);
-$color-index-bg-textss: rgba(6, 41, 37, 0.822);
-$form-background: rgba(6, 41, 37, 0.8);
-$transparent: rgba(255, 255, 255, 0);

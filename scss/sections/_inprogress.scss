@@ -1,5 +1,5 @@
 // Comeback link
 .cb-link {
-    color: $color-error;
+    color: map-get($special-pallet, color-error);
     font-weight: bold;
 }
