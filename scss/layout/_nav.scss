@@ -1,29 +1,29 @@
 .dropdown-item {
-    color: map-get($pallet , color-one);
+    color: map-get($pallet, color-one);
     // padding: 0;
 }
 .dropdown-menu {
     // padding: 5px 10px;
     margin-left: 30px;
     left: auto;
-    color: map-get($pallet , color-one);
+    color: map-get($pallet, color-one);
     background: #98a3a785;
     font-family: "Ubuntu";
     transition: all 0.3s ease;
     // &:focus,
     &:hover {
         text-decoration: none;
-        color: map-get($pallet , color-two);
+        color: map-get($pallet, color-two);
         display: flex;
         flex-direction: column;
     }
 }
 
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
     text-decoration: none;
-    color: map-get($pallet , color-two);
-    background-color: map-get($pallet , color-four);
+    color: map-get($pallet, color-two);
+    background-color: map-get($pallet, color-four);
 }
 
 .navbar-nav li:hover > ul.dropdown-menu {
@@ -31,10 +31,11 @@
     flex-direction: column;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
     // border: 2px solid #0e7a70;
-    background-color: map-get($pallet , color-four);
-    color: map-get($pallet , color-two); 
+    background-color: map-get($pallet, color-four);
+    color: map-get($pallet, color-two);
     // colorcitooooo #044a428f
     padding: 2px 15px;
 }

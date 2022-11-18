@@ -114,7 +114,7 @@ input[type="submit"] {
 }
 
 .navbar-light .navbar-brand {
-    color: map-get($pallet, color-one);;
+    color: map-get($pallet, color-one);
     margin: 0px 10px;
     padding: 0px 30px;
     font-size: 1rem;
@@ -134,9 +134,8 @@ a:not([href]):hover {
     border: transparent;
     background-color: map-get($pallet, color-one);
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
-    
     &:hover {
         border: 2px solid map-get($pallet, color-three);
         background-color: map-get($pallet, color-two);

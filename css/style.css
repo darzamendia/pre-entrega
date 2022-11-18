@@ -135,7 +135,8 @@ header {
   display: flex;
   flex-direction: column; }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background-color: #044a42;
   color: #b8e1dd;
   padding: 2px 15px; }
