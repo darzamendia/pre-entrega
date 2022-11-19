@@ -7,6 +7,12 @@
 	height: $height;
 }
 
+@mixin dropdown-padding($screen, $tb, $lr) {
+	@media screen and (min-width: $screen) {
+		padding: $tb $lr;
+	}
+}
+
 @mixin sizes-font($screen, $size) {
 	@if $screen ==map-get($screen-size, desktop) {
 		@media screen and (min-width: map-get($screen-size, desktop)) {

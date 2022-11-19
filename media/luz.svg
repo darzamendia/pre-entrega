@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="752pt" height="752pt" version="1.1" viewBox="0 0 752 752" xmlns="http://www.w3.org/2000/svg">
- <g>
-  <path d="m479.6 263.59v-5.9883c1.9609 0 3.8438-0.77734 5.2305-2.168 1.3906-1.3867 2.168-3.2695 2.168-5.2305v-44.398c0-1.9609-0.77734-3.8438-2.168-5.2344-1.3867-1.3867-3.2695-2.1641-5.2305-2.1641h-14.801v-22.199c0-5.8906-2.3359-11.535-6.5-15.699-4.1641-4.1641-9.8125-6.5-15.699-6.5h-177.59c-9.8125 0.011719-19.215 3.9141-26.152 10.848-6.9336 6.9375-10.836 16.34-10.848 26.148v362.59h-37c-4.0859 0-7.3984 3.3125-7.3984 7.3984v29.602c0 1.9609 0.78125 3.8438 2.168 5.2305 1.3867 1.3867 3.2695 2.168 5.2305 2.168h148c1.9609 0 3.8438-0.78125 5.2305-2.168s2.168-3.2695 2.168-5.2305v-29.602c0-1.9609-0.78125-3.8438-2.168-5.2305s-3.2695-2.168-5.2305-2.168h-96.195v-362.59c0-5.8867 2.3359-11.531 6.5-15.695 4.1641-4.1641 9.8086-6.5039 15.699-6.5039h177.59c1.9648 0 3.8477 0.78125 5.2344 2.168 1.3867 1.3867 2.168 3.2695 2.168 5.2344v22.199h-14.801c-4.0859 0-7.3984 3.3125-7.3984 7.3984v44.398c0 1.9609 0.77734 3.8438 2.1641 5.2305 1.3906 1.3906 3.2734 2.168 5.2344 2.168v5.9883c-11.367 6.5625-19.246 17.816-21.523 30.738-2.2812 12.926 1.2773 26.195 9.7109 36.25 8.4375 10.051 20.887 15.859 34.012 15.859s25.574-5.8086 34.012-15.859c8.4336-10.055 11.992-23.324 9.7109-36.25-2.2773-12.922-10.16-24.176-21.523-30.738zm-148 319.6h-133.19v-14.797h133.19zm111-369.98h29.598v29.598l-29.598 0.003906zm14.801 118.39c-9.1211-0.019531-17.723-4.2422-23.312-11.449-5.5938-7.2031-7.5508-16.582-5.3086-25.422 2.2383-8.8398 8.4336-16.156 16.781-19.824 2.6953-1.1758 4.4375-3.8359 4.4414-6.7773v-10.523h14.801v10.523h-0.003906c0.003906 2.9414 1.7461 5.6016 4.4414 6.7773 8.3477 3.668 14.539 10.984 16.781 19.824 2.2422 8.8398 0.28516 18.219-5.3086 25.422-5.5938 7.207-14.191 11.43-23.312 11.449z"/>
-  <path d="m450 361.2h14.801v29.598h-14.801z"/>
-  <path d="m494.02 349.1 10.465-10.465 20.93 20.926-10.465 10.465z"/>
-  <path d="m516.6 294.61h29.598v14.801h-29.598z"/>
-  <path d="m368.6 294.61h29.598v14.801h-29.598z"/>
-  <path d="m389.38 359.56 20.93-20.93 10.465 10.465-20.93 20.93z"/>
- </g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1" version="1.1" width="200px" height="200px" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:100%;height:100%;background-size:initial;background-repeat-y:initial;background-repeat-x:initial;background-position-y:initial;background-position-x:initial;background-origin:initial;background-color:initial;background-clip:initial;background-attachment:initial;animation-play-state:paused" ><g class="ldl-scale" style="transform-origin:50% 50%;transform:rotate(0deg) scale(0.8, 0.8);animation-play-state:paused" ><radialGradient gradientUnits="userSpaceOnUse" r="44.39" cy="18" cx="44.333" id="SVGID_1_" style="animation-play-state:paused" ><stop stop-color="#f5e6c8" offset="0" style="stop-color:rgb(245, 230, 200);animation-play-state:paused" ></stop>
+<stop stop-color="#f5e169" offset="1" style="stop-color:rgb(14, 122, 112);animation-play-state:paused" ></stop></radialGradient>
+<path stroke="#333" fill="url(#SVGID_1_)" stroke-miterlimit="10" stroke-width="3.5" d="M77.177 35.677c0-15.584-13.117-28.104-28.912-27.123-13.591.844-24.628 11.947-25.398 25.543-.515 9.092 3.443 17.281 9.875 22.574 1.995 1.642 3.087 4.139 3.087 6.723v.146a7.96 7.96 0 0 0 7.961 7.961h12.42a7.96 7.96 0 0 0 7.961-7.961v-.145c0-2.693 1.267-5.188 3.326-6.923 5.919-4.986 9.68-12.45 9.68-20.795z" style="stroke:rgb(51, 51, 51);animation-play-state:paused" ></path>
+<path stroke-miterlimit="10" stroke-width="3.5" stroke="#333" fill="#333" d="M61.601 68H38.399a6.305 6.305 0 0 0-6.305 6.305v4.093a6.305 6.305 0 0 0 6.305 6.305h1.759v0a5.296 5.296 0 0 0 5.296 5.296h9.091a5.296 5.296 0 0 0 5.296-5.296v0H61.6a6.305 6.305 0 0 0 6.305-6.305v-4.093A6.302 6.302 0 0 0 61.601 68z" style="stroke:rgb(51, 51, 51);fill:rgb(51, 51, 51);animation-play-state:paused" ></path>
+<path stroke-miterlimit="10" stroke-width="3.5" stroke-linecap="round" fill="none" stroke="#333" stroke-linejoin="round" d="M35.349 37.962l2.812 1.868c.42.577 1.281.577 1.701 0l1.962-2.699a1.052 1.052 0 0 1 1.701 0l1.962 2.699c.42.577 1.281.577 1.701 0l1.962-2.699a1.052 1.052 0 0 1 1.701 0l1.962 2.699c.42.577 1.281.577 1.701 0l1.962-2.699a1.052 1.052 0 0 1 1.701 0l1.962 2.699c.42.577 1.281.577 1.701 0l2.812-1.868" style="stroke:rgb(51, 51, 51);animation-play-state:paused" ></path>
+<path d="M44.083 46.833v8.039" stroke-miterlimit="10" stroke-width="3.5" stroke-linecap="round" fill="none" stroke="#333" stroke-linejoin="round" style="stroke:rgb(51, 51, 51);animation-play-state:paused" ></path>
+<path d="M55.917 46.833v8.039" stroke-miterlimit="10" stroke-width="3.5" stroke-linecap="round" fill="none" stroke="#333" stroke-linejoin="round" style="stroke:rgb(51, 51, 51);animation-play-state:paused" ></path>
+<path d="M37.167 72.833h25.666" stroke-miterlimit="10" stroke-width="3.5" stroke-linecap="round" fill="none" stroke="#e0e0e0" style="stroke:rgb(224, 224, 224);animation-play-state:paused" ></path>
+<path d="M37.167 79.833h25.666" stroke-miterlimit="10" stroke-width="3.5" stroke-linecap="round" fill="none" stroke="#e0e0e0" style="stroke:rgb(224, 224, 224);animation-play-state:paused" ></path>
+<metadata xmlns:d="https://loading.io/stock/" style="animation-play-state:paused" ><d:name style="animation-play-state:paused" >bulb</d:name>
+
+
+<d:tags style="animation-play-state:paused" >bulb,light,creative,creativity,idea,brainstorm,bright,luminance,think,smart,thought</d:tags>
+
+
+<d:license style="animation-play-state:paused" >by</d:license>
+
+
+<d:slug style="animation-play-state:paused" >lcei68</d:slug></metadata></g><!-- generated by https://loading.io/ --></svg>

@@ -118,12 +118,18 @@ header {
   color: #e9ecef; }
 
 .dropdown-menu {
-  margin-left: 30px;
   left: auto;
   color: #e9ecef;
   background: rgba(0, 0, 0, 0.8);
   font-family: "Ubuntu";
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  padding: 2% 4%; }
+  @media screen and (min-width: 768px) {
+    .dropdown-menu {
+      padding: 4% 15%; } }
+  @media screen and (min-width: 1024px) {
+    .dropdown-menu {
+      padding: 6% 15%; } }
   .dropdown-menu:hover {
     text-decoration: none;
     color: #b8e1dd;

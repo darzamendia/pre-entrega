@@ -2,13 +2,15 @@
     color: map-get($pallet, color-one);
 }
 .dropdown-menu {
-    margin-left: 30px;
     left: auto;
     color: map-get($pallet, color-one);
     background: map-get($special-pallet, transparency-one);
     font-family: "Ubuntu";
     transition: all 0.3s ease;
+    padding: 2% 4%;
     // &:focus,
+    @include dropdown-padding(map-get($screen-size, tablet), 4%, 15%);
+    @include dropdown-padding(map-get($screen-size, desktop), 6%, 15%);
     &:hover {
         text-decoration: none;
         color: map-get($pallet, color-two);
