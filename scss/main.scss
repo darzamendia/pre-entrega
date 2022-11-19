@@ -8,15 +8,16 @@
 @import "layout/header";
 @import "layout/nav";
 
+@import "sections/galeria";
 @import "sections/general";
 @import "sections/index";
 @import "sections/inprogress";
 
 @import "components/buttons";
 @import "components/jumbo";
+@import "components/table";
 
 @media screen and (min-width: 768px) {
-
     ul li {
         float: left;
     }
@@ -26,7 +27,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
     ul li {
         float: left;
     }

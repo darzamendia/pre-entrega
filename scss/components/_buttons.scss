@@ -1,6 +1,8 @@
 .btn-dark {
     background-color: map-get($pallet, color-four);
     border: none;
+    font-size: 1.5vh;
+    @include sizes-font(map-get($screen-size, desktop), 1.8vh);
 }
 
 .btn-search {
@@ -34,7 +36,6 @@
         border-radius: 25%;
         border-color: map-get($pallet, color-five);
     }
-
 }
 
 .btn-dark:hover,

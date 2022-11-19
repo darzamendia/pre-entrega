@@ -110,6 +110,15 @@ p.footerlinks {
 .newform select:focus + .label-name::after {
   transform: translateX(-0.6rem); }
 
+.label-name {
+  font-size: 2vh; }
+  @media screen and (min-width: 768px) {
+    .label-name {
+      font-size: 1.9vh; } }
+  @media screen and (min-width: 1024px) {
+    .label-name {
+      font-size: 1.8vh; } }
+
 header {
   top: 0;
   height: auto; }
@@ -164,6 +173,46 @@ a:hover {
   height: 10vh;
   background-image: url("../media/navextbg.svg"); }
 
+.col-animation-one {
+  transform: translateX(-100%);
+  animation: anima-one 1s ease-in-out forwards alternate 1s; }
+
+.col-animation-two {
+  transform: translateX(-200%);
+  animation: anima-two 1s ease-in-out forwards alternate 1s; }
+
+.col-animation-three {
+  transform: translateX(200%);
+  animation: anima-three 1s ease-in-out forwards alternate 1s; }
+
+.col-animation-four {
+  transform: translateX(100%);
+  animation: anima-four 1s ease-in-out forwards alternate 1s; }
+
+@keyframes anima-one {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(0%); } }
+
+@keyframes anima-two {
+  0% {
+    transform: translateX(-200%); }
+  100% {
+    transform: translateX(0%); } }
+
+@keyframes anima-three {
+  0% {
+    transform: translateX(200%); }
+  100% {
+    transform: translateX(0%); } }
+
+@keyframes anima-four {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0%); } }
+
 h1 {
   font-size: 30px; }
   @media screen and (min-width: 768px) {
@@ -185,7 +234,11 @@ h1 {
 
 .input-search {
   height: 1.5rem;
-  font-family: "Ubuntu"; }
+  font-family: "Ubuntu";
+  font-size: 1.5vh; }
+  @media screen and (min-width: 1024px) {
+    .input-search {
+      font-size: 1.7vh; } }
 
 .logo {
   display: block;
@@ -244,7 +297,13 @@ body {
 
 .container {
   border-radius: 5px;
-  padding: 10vh 4vh; }
+  padding: 2vh 2vh; }
+  @media screen and (min-width: 768px) {
+    .container {
+      padding: 5vh 3vh; } }
+  @media screen and (min-width: 1024px) {
+    .container {
+      padding: 10vh 4vh; } }
 
 .containerCenter {
   justify-content: center; }
@@ -366,7 +425,11 @@ a:not([href]):hover {
 
 .btn-dark, .btn-search {
   background-color: #044a42;
-  border: none; }
+  border: none;
+  font-size: 1.5vh; }
+  @media screen and (min-width: 1024px) {
+    .btn-dark, .btn-search {
+      font-size: 1.8vh; } }
 
 .btn-search {
   padding: 0; }
@@ -399,6 +462,12 @@ a:not([href]):hover {
   padding: 0;
   margin-bottom: 0;
   border-radius: 0.3rem; }
+
+.table {
+  font-size: 1.5vh; }
+  @media screen and (min-width: 1024px) {
+    .table {
+      font-size: 1.8vh; } }
 
 @media screen and (min-width: 768px) {
   ul li {

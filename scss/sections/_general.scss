@@ -14,6 +14,8 @@ h1 {
 .input-search {
     height: 1.5rem;
     font-family: "Ubuntu";
+    font-size: 1.5vh;
+    @include sizes-font(map-get($screen-size, desktop), 1.7vh);
 }
 
 .logo {
@@ -58,7 +60,7 @@ li a {
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     &:hover {
         background-color: map-get($pallet, color-four);
-        color: map-get($pallet, color-two)
+        color: map-get($pallet, color-two);
     }
 }
 
@@ -75,7 +77,9 @@ body {
 
 .container {
     border-radius: 5px;
-    padding: 10vh 4vh;
+    padding: 2vh 2vh;
+    @include tb-lr-padding(map-get($screen-size, tablet), 5vh, 3vh);
+    @include tb-lr-padding(map-get($screen-size, desktop), 10vh, 4vh);
 }
 
 .containerCenter {

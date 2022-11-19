@@ -21,23 +21,23 @@
 
 .newform {
     padding: 30px;
-    background: map-get($pallet , color-five);
+    background: map-get($pallet, color-five);
     border-radius: 10px;
 }
 
 .newform input {
     @include sizes(100%, 100%);
     border: none;
-    color: map-get($pallet , color-four);
+    color: map-get($pallet, color-four);
     padding-top: 20px;
     outline: none;
 }
 
 .newform select {
     @include sizes(100%, 100%);
-    color: map-get($pallet , color-five);
+    color: map-get($pallet, color-five);
     border: none;
-    color: map-get($pallet , color-four);
+    color: map-get($pallet, color-four);
     padding-top: 20px;
     outline: none;
 }
@@ -71,19 +71,24 @@
     @include transition-one;
 }
 
-.newform input:focus + .label-name .content-name, 
+.newform input:focus + .label-name .content-name,
 .newform input:valid + .label-name .content-name,
-.newform select:focus + .label-name .content-name, 
+.newform select:focus + .label-name .content-name,
 .newform select:valid + .label-name .content-name {
     transform: translateY(-100%);
-    font-size: 12px; 
-    color: map-get($pallet , color-three);
+    font-size: 12px;
+    color: map-get($pallet, color-three);
 }
 
 .newform input:focus + .label-name::after,
 .newform input:valid + .label-name::after,
-.newform select:focus + .label-name::after, 
-.newform select:focus + .label-name::after  {
+.newform select:focus + .label-name::after,
+.newform select:focus + .label-name::after {
     transform: translateX(-0.6rem);
 }
 
+.label-name {
+    font-size: 2vh;
+    @include sizes-font(map-get($screen-size, tablet), 1.9vh);
+    @include sizes-font(map-get($screen-size, desktop), 1.8vh);
+}

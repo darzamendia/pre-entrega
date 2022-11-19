@@ -1,0 +1,55 @@
+.col-animation-one {
+    transform: translateX(-100%);
+    animation: anima-one 1s ease-in-out forwards alternate 1s;
+}
+
+.col-animation-two {
+    transform: translateX(-200%);
+    animation: anima-two 1s ease-in-out forwards alternate 1s;
+}
+
+.col-animation-three {
+    transform: translateX(200%);
+    animation: anima-three 1s ease-in-out forwards alternate 1s;
+}
+
+.col-animation-four {
+    transform: translateX(100%);
+    animation: anima-four 1s ease-in-out forwards alternate 1s;
+}
+
+@keyframes anima-one {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes anima-two {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes anima-three {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes anima-four {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}

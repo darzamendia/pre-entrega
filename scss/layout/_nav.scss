@@ -9,8 +9,8 @@
     transition: all 0.3s ease;
     padding: 2% 4%;
     // &:focus,
-    @include dropdown-padding(map-get($screen-size, tablet), 4%, 15%);
-    @include dropdown-padding(map-get($screen-size, desktop), 6%, 15%);
+    @include tb-lr-padding(map-get($screen-size, tablet), 4%, 15%);
+    @include tb-lr-padding(map-get($screen-size, desktop), 6%, 15%);
     &:hover {
         text-decoration: none;
         color: map-get($pallet, color-two);
@@ -38,7 +38,7 @@
     padding: 2px 15px;
 }
 
-.dropdown:hover>.dropdown-menu{
+.dropdown:hover > .dropdown-menu {
     display: block;
 }
 

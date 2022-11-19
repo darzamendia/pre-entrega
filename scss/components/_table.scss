@@ -1,0 +1,4 @@
+.table {
+    font-size: 1.5vh;
+    @include sizes-font(map-get($screen-size, desktop), 1.8vh);
+}

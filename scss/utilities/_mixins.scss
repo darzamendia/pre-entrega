@@ -1,70 +1,62 @@
 @mixin transition-one {
-	transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 @mixin sizes($width, $height) {
-	width: $width;
-	height: $height;
+    width: $width;
+    height: $height;
 }
 
-@mixin dropdown-padding($screen, $tb, $lr) {
-	@media screen and (min-width: $screen) {
-		padding: $tb $lr;
-	}
+@mixin tb-lr-padding($screen, $tb, $lr) {
+    @media screen and (min-width: $screen) {
+        padding: $tb $lr;
+    }
 }
 
 @mixin sizes-font($screen, $size) {
-	@if $screen ==map-get($screen-size, desktop) {
-		@media screen and (min-width: map-get($screen-size, desktop)) {
-			font-size: $size;
-		}
-	}
-
-	@else if $screen ==map-get($screen-size, tablet) {
-		@media screen and (min-width: map-get($screen-size, tablet)) {
-			font-size: $size;
-		}
-	}
+    @if $screen ==map-get($screen-size, desktop) {
+        @media screen and (min-width: map-get($screen-size, desktop)) {
+            font-size: $size;
+        }
+    } @else if $screen ==map-get($screen-size, tablet) {
+        @media screen and (min-width: map-get($screen-size, tablet)) {
+            font-size: $size;
+        }
+    }
 }
 
 @mixin sizes-indexBg($screen) {
-	@if $screen ==map-get($screen-size, desktop) {
-		@media screen and (min-width: map-get($screen-size, desktop)) {
-			height: 100vh;
-		}
-	}
-
-	@else if $screen ==map-get($screen-size, tablet) {
-		@media screen and (min-width: map-get($screen-size, tablet)) {
-			height: 90vh;
-		}
-	}
+    @if $screen ==map-get($screen-size, desktop) {
+        @media screen and (min-width: map-get($screen-size, desktop)) {
+            height: 100vh;
+        }
+    } @else if $screen ==map-get($screen-size, tablet) {
+        @media screen and (min-width: map-get($screen-size, tablet)) {
+            height: 90vh;
+        }
+    }
 }
 
 @mixin sizes-logo($screen) {
-	@if $screen == map-get($screen-size, desktop) {
-		@media screen and (min-width: map-get($screen-size, desktop)) {
-			@include sizes(150px, 150px);
-		}
-	}
-	
-	@else if $screen == map-get($screen-size, tablet) {
-		@media screen and (min-width: map-get($screen-size, tablet)) {
-			@include sizes(120px, 120px);
-		}
-	}
+    @if $screen == map-get($screen-size, desktop) {
+        @media screen and (min-width: map-get($screen-size, desktop)) {
+            @include sizes(150px, 150px);
+        }
+    } @else if $screen == map-get($screen-size, tablet) {
+        @media screen and (min-width: map-get($screen-size, tablet)) {
+            @include sizes(120px, 120px);
+        }
+    }
 }
 
 @mixin sizes-bgtext($screen) {
-	@if $screen == map-get($screen-size, desktop) {
-		@media screen and (min-width: map-get($screen-size, desktop)) {
-			margin-top: 18rem;
-		}
-	}
-	
-	@else if $screen == map-get($screen-size, tablet) {
-		@media screen and (min-width: map-get($screen-size, tablet)) {
-			margin-top: 13rem;
-		}
-	}
+    @if $screen == map-get($screen-size, desktop) {
+        @media screen and (min-width: map-get($screen-size, desktop)) {
+            margin-top: 18rem;
+        }
+    } @else if $screen == map-get($screen-size, tablet) {
+        @media screen and (min-width: map-get($screen-size, tablet)) {
+            margin-top: 13rem;
+        }
+    }
 }
